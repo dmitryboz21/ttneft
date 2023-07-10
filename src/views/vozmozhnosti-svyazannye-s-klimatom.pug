@@ -1,0 +1,32 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Возможности, связанные с климатом
+
+			h1.dmpage-h1 Возможности, связанные с климатом
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p Курс на осознанное потребление, заботу об окружающей среде и здоровье человека создает возможности для развития бизнеса. Значительный потенциал Компания видит в реализации программы повышения энергоэффективности и энергосбережения, увеличении рационального использования попутных нефтяных газов, развитии биотехнологических проектов, увеличении доли низкоуглеродного и вторичного сырья в нефтепереработке и композиционной продукции, расширении сети газовых заправочных станций и сбора вторичного сырья для дальнейшей переработки.
+						h1.red тут таблица!!!
+						
+
+block scripts

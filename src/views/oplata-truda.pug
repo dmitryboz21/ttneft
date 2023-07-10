@@ -1,0 +1,528 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Оплата труда
+
+			h1.dmpage-h1 Оплата труда
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p Оплата труда является ключевой частью системы стимулирования персонала, которая позволяет Компании сохранять высокую конкурентоспособность, привлекая и удерживая квалифицированных и мотивированных сотрудников. 
+						p Политика Компании в области оплаты труда и мотивации персонала базируется на следующих подходах: конкурентоспособность, справедливость, адресность, эффективность, унификация, ориентированность на результат.
+						p Индикаторами при принятии решения о повышении заработной платы работников Компании являются: уровень корпоративного бюджета работника Компании, индекс потребительских цен (уровень инфляции), минимальный потребительский бюджет в регионе, уровень оплаты труда в других компаниях отрасли, повышение производительности труда по Компании. 
+						p Основной доход персонала формируют заработная плата и социальный пакет. Заработная плата включает тарифную (постоянную) часть (согласно единой тарифной сетке) и премиальную (переменную) часть. Социальный пакет обеспечивает работникам соответствующий объем медицинских и других социальных гарантий.
+						
+					.dmpage-table-section
+						h2.dmpage-table-title.dmpage-table-title--small-w  Расчет выручки на одного работника
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span="2")
+									
+								thead
+									tr
+										th(rowspan='2')
+											p  
+										th(rowspan='2')
+											p 2020
+										th(rowspan='2')
+											p 2021
+										th(rowspan='2')
+											p 2022
+										th(colspan='2')
+											p 2022/2021
+									tr
+										th(style="display:none;")
+										th(style="display:none;")
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p +/-
+										th
+											p %
+						
+							
+								tbody
+									tr
+										td
+											p Среднесписочная численность, чел.
+										td
+											p 49 416
+										td
+											p 51 528
+										td
+											p 61 869
+										td
+											p 10 342
+										td
+											p 120
+									tr
+										td
+											p Выручка-нетто с внутригрупповыми оборотами, млн руб.
+										td
+											p 973 529
+										td
+											p 1 293 519
+										td
+											p 1 574 211
+										td
+											p 280 692
+										td
+											p 122
+									tr
+										td
+											p Выручка на 1-го работника, тыс. руб./чел.
+										td
+											p 19 701
+										td
+											p 25 103
+										td
+											p 25 444
+										td
+											p 341
+										td
+											p 101 
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h2.dmpage-table-title Фонд оплаты труда, млн руб.
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 46 011
+									tr
+										td
+											p 2021
+										td
+											p 52 587
+									tr
+										td
+											p 2022
+										td
+											p 57 871
+
+					.dmpage-table-section
+						h2.dmpage-table-title.dmpage-table-title--small-w  Среднемесячная заработная плата, руб.
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span="3")
+									
+								thead
+									tr
+										th(rowspan='2')  
+										th(rowspan='2')
+											p Среднемесячная заработная плата в регионе деятельности
+										th(colspan='3')
+											p Среднемесячная заработная плата работников Компании
+									tr
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p Всего
+										th
+											p мужчины
+										th
+											p женщины
+								
+								tbody
+									
+									tr
+										td
+											p 2020
+										td
+											p 45 179,30
+										td
+											p 64 020,14
+										td
+											p 75 626,65
+										td
+											p 52 670,64
+									tr
+										td
+											p 2021
+										td
+											p 51 070,00
+										td
+											p 72 318,13
+										td
+											p 80 744,18
+										td
+											p 57 467,97
+									tr
+										td
+											p 2022
+										td
+											p 59 110,50
+										td
+											p 82 844,60
+										td
+											p 94 134,09
+										td
+											p 65 517,63
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h2.dmpage-table-title соотношение среднемесячной заработной платы Компании со среднемесячной платой в регионе деятельности
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th
+										th
+											p мужчины
+										th
+											p женщины
+						
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 1,67
+										td
+											p 1,17
+									tr
+										td
+											p 2021
+										td
+											p 1,58
+										td
+											p 1,13
+									tr
+										td
+											p 2022
+										td
+											p 1,59
+										td
+											p 1,11
+
+
+						
+					.dmpage-table-section
+						h2.dmpage-table-title.dmpage-table-title--small-w  Среднемесячная заработная плата работников с разбивкой по категориям и полу, руб.
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								thead
+									tr
+										th  
+										th
+											p РСС* всего
+										th
+											p мужчины
+										th
+											p женщины
+										th
+											p рабочие всего
+										th
+											p мужчины
+										th
+											p женщины
+								
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 98 487,77
+										td
+											p 123 293,25
+										td
+											p 71 243,01
+										td
+											p 43 596,02
+										td
+											p 46 470,25
+										td
+											p 38 952,32
+									tr
+										td
+											p 2021
+										td
+											p 102 590,01
+										td
+											p 125 976,71
+										td
+											p 75 763,06
+										td
+											p 51 643,51
+										td
+											p 56 510,23
+										td
+											p 43 936,90
+									tr
+										td
+											p 2022
+										td
+											p 115 682,75
+										td
+											p 140 730,32
+										td
+											p 86 270,66
+										td
+											p 63 409,35
+										td
+											p 69 564,16
+										td
+											p 51 140,32
+
+					.dmpage-text.dmpage-text--small
+						p * РСС – руководители, специалисты, служащие
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h2.dmpage-table-title Соотношение среднемесячной заработной платы женщин к мужчинам
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th  
+										th
+											p Всего
+										th
+											p РСС
+										th
+											p рабочие
+									tr
+										th
+											p Ед. изм.
+										th
+											p коэфф.
+										th
+											p коэфф.
+										th
+											p коэфф.
+									
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 0,70
+										td
+											p 0,58
+										td
+											p 0,84
+									tr
+										td
+											p 2021
+										td
+											p 0,71
+										td
+											p 0,60
+										td
+											p 0,78
+									tr
+										td
+											p 2022
+										td
+											p 0,70
+										td
+											p 0,61
+										td
+											p 0,74 
+
+
+						
+					.dmpage-table-section
+						h2.dmpage-table-title.dmpage-table-title--small-w  Минимальная среднемесячная заработная плата*, руб.
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span=3)
+								thead
+									tr
+										th(rowspan='2')  
+										th(rowspan='2')
+											p Минимальный размер оплаты труда (МРОТ) 
+										th(colspan='3')
+											p Минимальная среднемесячная заработная плата работников Компании
+									tr
+									
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p Всего
+										th
+											p мужчины
+										th
+											p женщины
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 14 000
+										td
+											p 15 634
+										td
+											p 15 634
+										td
+											p 15 634
+									tr
+										td
+											p 2021
+										td
+											p 15 400
+										td
+											p 16 572
+										td
+											p 16 572
+										td
+											p 16 572
+									tr
+										td
+											p 2022**
+										td
+											p 16 700
+										td
+											p 30 256
+										td
+											p 30 256
+										td
+											p 30 256 
+
+					.dmpage-text.dmpage-text--small
+						p * - при полной отработке норм времени и выполнении трудовых обязанностей
+						p ** - увеличена минимальная тарифная ставка оплаты труда у рабочих 1 разряда
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h2.dmpage-table-title Соотношение минимально гарантированной Компанией среднемесячной заработной платы с МРОТ
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								thead
+									tr
+										th  
+										th
+											p мужчины
+										th
+											p женщины
+							
+							
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 1,12
+										td
+											p 1,12
+									tr
+										td
+											p 2021
+										td
+											p 1,08
+										td
+											p 1,08
+									tr
+										td
+											p 2022
+										td
+											p 1,81
+										td
+											p 1,81 
+
+
+
+						
+					 
+								
+
+
+
+block scripts

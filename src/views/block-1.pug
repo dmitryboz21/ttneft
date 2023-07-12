@@ -1,0 +1,30 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Устойчивое развитие
+
+			h1.dmpage-h1 Устойчивое развитие
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="img/top/block-1.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail 
+					include ./page-parts/b1/ustojchivoe-razvitie.pug
+					include ./page-parts/b1/navigator-cur-oon.pug
+					include ./page-parts/b1/prava-cheloveka.pug
+block scripts

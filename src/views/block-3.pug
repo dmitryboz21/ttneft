@@ -1,0 +1,41 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Персонал
+
+			h1.dmpage-h1 Персонал
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="img/top/block-3.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail 
+					
+					include ./page-parts/b3/personal.pug
+					include ./page-parts/b3/sistema-upravleniya.pug
+					include ./page-parts/b3/struktura.pug	
+					include ./page-parts/b3/oplata-truda.pug
+					include ./page-parts/b3/obuchenie-i-razvitie.pug
+					include ./page-parts/b3/razvitie-molodezhi.pug
+					include ./page-parts/b3/kollektivnoe-predstavitelstvo.pug
+					include ./page-parts/b3/socialnoe-obespechenie.pug
+block scripts
+	
+
+
+
+

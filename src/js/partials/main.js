@@ -346,24 +346,31 @@ $(document).ready(function () {
 				data.datasets.forEach(element => {
 					element.backgroundColor = '#CAE7DE';
 					element.barPercentage = .6;
-					element.categoryPercentage = 1;
+					element.categoryPercentage = .9;
 					element.spacing = 0;
 					element.borderDashOffset = 0;
+					
+					element.datalabels={
+						color: '#038E63'
+					};
 					++$idx;
 				});
 			}
 			else {
 				$idx = 0;
 				data.datasets.forEach(element => {
-					if(typeof(element.backgroundColor)==='undefined'){
+					if (typeof (element.backgroundColor) === 'undefined') {
 						element.backgroundColor = barChartsColors[$idx];
 					}
-					
+
 					element.barPercentage = .6;
-					element.categoryPercentage = 1;
+					element.categoryPercentage = .9;
 					element.spacing = 0;
 					element.borderDashOffset = 0;
 
+					element.datalabels={
+						color: '#038E63'
+					};
 					++$idx;
 				});
 			}
@@ -416,10 +423,13 @@ $(document).ready(function () {
 						//hoverOffset: 0,
 						backgroundColor: '#038E63',
 
+						datalabels: {
+							color: 'transparent'
+						},
 						borderDashOffset: 0,
 						spacing: 0,
 						barPercentage: .6,
-						categoryPercentage: 1,
+						categoryPercentage: .9,
 					};
 
 					dataset2.stack = element.stack;
@@ -433,11 +443,13 @@ $(document).ready(function () {
 					data: dataset2_data,
 					//hoverOffset: 0,
 					backgroundColor: '#038E63',
-
+					datalabels: {
+						color: 'transparent'
+					},
 					borderDashOffset: 0,
 					spacing: 0,
 					barPercentage: .6,
-					categoryPercentage: 1,
+					categoryPercentage: .9,
 				};
 
 				data.datasets.push(dataset2);
@@ -476,6 +488,7 @@ $(document).ready(function () {
 			new Chart(canv2[0], {
 				type: 'bar',
 				data: data,
+				plugins: [ChartDataLabels],
 
 
 				options: {
@@ -509,14 +522,19 @@ $(document).ready(function () {
 							},
 							ticks: {
 								beginAtZero: true,
-								display: false
+								display: true
 							}
 						}
 					},
+					//aspectRatio: 1.87,
 					aspectRatio: 1.87,
 
 					responsive: true,
 					plugins: {
+						title:{
+							display: true,
+							text: '',
+						},
 						legend: {
 							display: false,
 						},
@@ -605,6 +623,22 @@ $(document).ready(function () {
 										$el.addClass('dmchartjs-tooltip--centred--no-arrow');
 										tooltipEl.style.left = (position.left + window.pageXOffset + tooltipModel.caretX - (rightCornerPos - window.innerWidth + 1) - window.SBWidth) + 'px';
 									}
+								}
+							}
+						},
+						datalabels: {
+							//color: '#038E63',
+							anchor: 'end',
+							offset : 5,
+							align : 'top',
+							labels: {
+								title: {
+									font: {
+									//	weight: 'bold'
+									}
+								},
+								value: {
+									
 								}
 							}
 						}
@@ -734,7 +768,7 @@ $(document).ready(function () {
 			}*/
 
 
-			var this_chart=new Chart(canv2[0], {
+			var this_chart = new Chart(canv2[0], {
 				type: 'bubble',
 				data: data,
 
@@ -784,7 +818,7 @@ $(document).ready(function () {
 								stepSize: 1,
 								//format: new Intl.NumberFormat('es-ES', { style: 'currency', currency: '' })
 								//display: false 
-								callback: function (value, index, values) {									
+								callback: function (value, index, values) {
 									return value;
 								}
 							}
@@ -831,13 +865,13 @@ $(document).ready(function () {
 										tooltipEl.classList.add('no-transform');
 									}
 									"интегральный индекс удовлетворенности: (2 022, 54,25, 68.5)"
-									function getBody(bodyItem) { 
-										var $idx=0;
-										bodyItem.lines.forEach(function(lines_el){
-											bodyItem.lines[$idx]=lines_el.replace( new RegExp("(.*)\\(.*,(.*)\\)","gm"),"$1 $2"); 
+									function getBody(bodyItem) {
+										var $idx = 0;
+										bodyItem.lines.forEach(function (lines_el) {
+											bodyItem.lines[$idx] = lines_el.replace(new RegExp("(.*)\\(.*,(.*)\\)", "gm"), "$1 $2");
 											++$idx;
 										})
-										
+
 										return bodyItem.lines;
 									}
 

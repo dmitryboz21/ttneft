@@ -1,0 +1,50 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div ОКРУЖАЮЩАЯ СРЕДА
+
+			h1.dmpage-h1 ОКРУЖАЮЩАЯ СРЕДА
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="img/top/block-2.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail 
+					include ./page-parts/b2/okruzhayushaya-sreda.pug
+					include ./page-parts/b2/poziciya-kompanii-v-oblasti-izmeneniya-klimata.pug
+					include ./page-parts/b2/klimaticheskie-celi.pug
+					include ./page-parts/b2/vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.pug
+					include ./page-parts/b2/sistema-ekologicheskogo-menedzhmenta.pug
+					include ./page-parts/b2/risk-menedzhment.pug
+					include ./page-parts/b2/vozmozhnosti-svyazannye-s-klimatom.pug
+					include ./page-parts/b2/vklad-v-zashitu-okruzhayushej-sredy.pug
+					include ./page-parts/b2/ekologicheskaya-programma.pug
+					include ./page-parts/b2/vybrosy-v-atmosferu.pug
+					include ./page-parts/b2/vybrosy-zagryaznyayushih-veshestv.pug
+					include ./page-parts/b2/vodozabor-i-vodopotreblenie.pug
+					include ./page-parts/b2/vodootvedenie.pug
+					include ./page-parts/b2/obrashenie-s-othodami.pug
+					include ./page-parts/b2/otvetstvennoe-potreblenie.pug
+					include ./page-parts/b2/sohranenie-bioraznoobraziya.pug
+					include ./page-parts/b2/resursoeffektivnost.pug
+					
+block scripts
+	
+
+
+
+

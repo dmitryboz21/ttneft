@@ -1,0 +1,40 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Безопасность производства
+
+			h1.dmpage-h1 Безопасность производства
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="img/top/block-4.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail 
+					include ./page-parts/b4/bezopasnost-proizvodstva.pug
+					include ./page-parts/b4/sistema-upravleniya-2.pug
+					include ./page-parts/b4/ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.pug
+					include ./page-parts/b4/bezopasnost-rabochih-mest.pug
+					include ./page-parts/b4/tehnogennye-proisshestviya.pug
+					include ./page-parts/b4/proizvodstvennyj-travmatizm.pug
+
+					
+block scripts
+	
+
+
+
+

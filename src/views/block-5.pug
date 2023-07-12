@@ -1,0 +1,42 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Содействие социальному развитию
+
+			h1.dmpage-h1 Содействие социальному развитию
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="img/top/block-5.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail 
+					include ./page-parts/b5/sodejstvie-socialnomu-razvitiyu.pug
+					include ./page-parts/b5/podhod-k-upravleniyu.pug
+					include ./page-parts/b5/blagotvoritelnyj-fond.pug
+					include ./page-parts/b5/razvitie-socialnoj-infrastruktury.pug
+					include ./page-parts/b5/investicii-v-novye-pokoleniya.pug
+					include ./page-parts/b5/sohranenie-kulturnogo-naslediya.pug
+					include ./page-parts/b5/b5-others.pug
+
+
+					
+block scripts
+	
+
+
+
+

@@ -1235,6 +1235,33 @@ window.dmpageCharts['chart-bar-23-8'] = {
 };
 
 
+
+//Текучесть кадров
+
+
+window.dmpageCharts['chart-bar-23-9-postfix'] = '%';
+window.dmpageCharts['chart-bar-23-9'] = {
+	labels: [
+		'2020',
+		'2021',
+		'2022',
+	],
+	datasets: [
+		{
+			label: 'Текучесть кадров',
+			stack: 'Stack 0',
+			//backgroundColor: '#00B475',
+			data: [
+				9,
+				12,
+				12,
+			],
+		},
+
+	]
+};
+
+
 //Социальные выплаты работникам, млн руб. (по Коллективному договору) 
 window.dmpageCharts['chart-bar-29-1-postfix'] = ' млн руб.';
 window.dmpageCharts['chart-bar-29-1'] = {
@@ -1254,6 +1281,28 @@ window.dmpageCharts['chart-bar-29-1'] = {
 
 
 
+			],
+		},
+
+	]
+};
+
+
+//Взносы на негосударственное пенсионное обеспечение, млн руб.
+window.dmpageCharts['chart-bar-29-2-postfix'] = ' млн руб.';
+window.dmpageCharts['chart-bar-29-2'] = {
+	labels: [
+		'2020',
+		'2021',
+		'2022',
+	],
+	datasets: [
+		{
+			label: 'Взносы на негосударственное пенсионное обеспечение',
+			data: [
+				151,
+				231,
+				548,
 			],
 		},
 

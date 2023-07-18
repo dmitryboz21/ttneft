@@ -20,21 +20,56 @@ block main
 
 			.dmpage-top
 				.dmpage-top__pic
-					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+					img(src="img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="okruzhayushaya-sreda.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="okruzhayushaya-sreda.html") К началу раздела
+						a.dmpage-menu-item(href="poziciya-kompanii-v-oblasti-izmeneniya-klimata.html") Позиция Компании в области изменения климата
+						a.dmpage-menu-item(href="klimaticheskie-celi.html") Климатические цели
+						a.dmpage-menu-item(href="vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.html") Взаимодействие по вопросам климатической повестки
+						a.dmpage-menu-item(href="sistema-ekologicheskogo-menedzhmenta.html") Система экологического менеджмента
+						a.dmpage-menu-item(href="risk-menedzhment.html") Риск-менеджмент
+						a.dmpage-menu-item(href="vozmozhnosti-svyazannye-s-klimatom.html") Возможности, связанные с климатом
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vklad-v-zashitu-okruzhayushej-sredy.html") Вклад в защиту окружающей среды
+						a.dmpage-menu-item(href="ekologicheskaya-programma.html") Экологическая программа
+						a.dmpage-menu-item(href="vybrosy-v-atmosferu.html") Выбросы в атмосферу
+						a.dmpage-menu-item(href="vybrosy-zagryaznyayushih-veshestv.html") Выбросы загрязняющих веществ
+						a.dmpage-menu-item(href="vodozabor-i-vodopotreblenie.html") Водозабор и водопотребление
+						a.dmpage-menu-item(href="vodootvedenie.html") Водоотведение
+						a.dmpage-menu-item(href="obrashenie-s-othodami.html") Обращение с отходами
+						a.dmpage-menu-item(href="otvetstvennoe-potreblenie.html") Ответственное потребление
+						a.dmpage-menu-item(href="sohranenie-bioraznoobraziya.html") Сохранение биоразнообразия
+						a.dmpage-menu-item(href="resursoeffektivnost.html") Ресурсоэффективность
+
 
 			.dmpage-main
-				.dmpage-detail
-					.dmpage-text
-						p В 2022 году расходы на охрану окружающей среды составили 10,8 млрд руб., что на 8,5 % меньше, чем в 2021 году. Уменьшение расходов преимущественно связано с изменением организационной структуры Группы «Татнефть» и уменьшением инвестиций в связи завершением строительства и вводом в эксплуатацию общезаводской факельной системы и компрессорной установки сырого газа.
-						h1.red тут таблица!!!
-					.dmpage-text.dmpage-text--small *амортизационные отчисления на восстановление основных фондов по охране окружающей среды по Группе «Татнефть» помимо данного показателя составили 4,8 млрд рублей.
-					.dmpage-text
-						p Расчет расходов на охрану окружающей среды произведен на основании отчетов по формам федерального статистического наблюдения N 4-ОС «Сведения о текущих затратах на охрану окружающей среды» и № 18-КС «Сведения об инвестициях в основной капитал, направленных на охрану окружающей среды и рациональное использование природных ресурсов».
-						h1.red тут таблица!!!
-						h1.red тут график!!!!
-						p Масштабная природоохранная деятельность предприятий Группы «Татнефть» финансируется за счёт собственных средств по приоритетному принципу. 
-						h1.red тут график!!!!
-						p Объёмы финансирования природоохранных мероприятий в соответствии с Европейским Классификатором видов природоохранной деятельности (The Classification of Environmental Protection Activities and expenditures, СЕРА 2000) сгруппированы по 9 направлениям.
-						h1.red тут таблица!!!
-
+				.dmpage-detail 
+					//	include ./page-parts/b2/okruzhayushaya-sreda.pug
+						include ./page-parts/b2/poziciya-kompanii-v-oblasti-izmeneniya-klimata.pug
+						include ./page-parts/b2/klimaticheskie-celi.pug
+						include ./page-parts/b2/vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.pug
+						include ./page-parts/b2/sistema-ekologicheskogo-menedzhmenta.pug
+						include ./page-parts/b2/risk-menedzhment.pug
+						include ./page-parts/b2/vozmozhnosti-svyazannye-s-klimatom.pug
+					include ./page-parts/b2/vklad-v-zashitu-okruzhayushej-sredy.pug
+				//	include ./page-parts/b2/ekologicheskaya-programma.pug
+					include ./page-parts/b2/vybrosy-v-atmosferu.pug
+					include ./page-parts/b2/vybrosy-zagryaznyayushih-veshestv.pug
+					include ./page-parts/b2/vodozabor-i-vodopotreblenie.pug
+					include ./page-parts/b2/vodootvedenie.pug
+					include ./page-parts/b2/obrashenie-s-othodami.pug
+					include ./page-parts/b2/otvetstvennoe-potreblenie.pug
+					include ./page-parts/b2/sohranenie-bioraznoobraziya.pug
+					include ./page-parts/b2/resursoeffektivnost.pug
+					
 block scripts
+	
+
+
+
+

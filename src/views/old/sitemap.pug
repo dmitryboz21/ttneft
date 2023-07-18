@@ -1,0 +1,53 @@
+extends layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'index.html'
+		};
+
+
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Карта
+
+			h1.dmpage-h1 Карта
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p 
+							a(href="/ttneft/build/block-1.html") Блок 1
+						p 
+							a(href="/ttneft/build/block-2.html") Блок 2
+						p 
+							a(href="/ttneft/build/block-3.html") Блок 3
+						p 
+							a(href="/ttneft/build/block-4.html") Блок 4
+						p 
+							a(href="/ttneft/build/block-5.html") Блок 5
+						p 
+							a(href="/ttneft/build/ratings.html") Рейтинги
+
+block scripts
+	script(src="js/page-index.js")
+
+
+

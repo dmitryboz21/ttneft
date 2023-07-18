@@ -20,14 +20,41 @@ block main
 
 			.dmpage-top
 				.dmpage-top__pic
-					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+					img(src="img/top/block-3.jpg", alt="")
+			
+			.dmpage-menu
+				//a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="personal.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						//a.dmpage-menu__back-to-start(href="personal.html") К началу раздела
+						a.dmpage-menu-item(href="sistema-upravleniya.html") Система управления
+						a.dmpage-menu-item(href="struktura.html") Структура
+						a.dmpage-menu-item(href="oplata-truda.html") Оплата труда
+						a.dmpage-menu-item(href="obuchenie-i-razvitie.html") Обучение и развитие
+						a.dmpage-menu-item(href="razvitie-molodezhi.html") Развитие молодежи
+						a.dmpage-menu-item(href="kollektivnoe-predstavitelstvo.html") Коллективное представительство
+						a.dmpage-menu-item(href="socialnoe-obespechenie.html") Социальное обеспечение
+						a.dmpage-menu-item(href="kadrovyj-rezerv.html") Кадровый резерв
 
+
+
+			
 			.dmpage-main
-				.dmpage-detail
-					.dmpage-text
-						p Компания признает важность и ценность фундаментальных прав и свобод человека в сфере труда: свободу объединения, право на заключение коллективных договоров, трудовые права и право на охрану здоровья. 
-						p Полноценное функционирование и стабильное развитие Компании — заслуга исключительно ее сотрудников. Высокий уровень профессионализма сотрудников, их приверженность корпоративным ценностям, ответственность и добросовестность являются залогом успешной деятельности и развития Компании. 
-						p Грамотно внедренная корпоративная культура помогает создать сплоченную команду единомышленников — профессионалов, нацеленных на достижение целей, обозначенных руководством Компании. Компания является ответственным работодателем, обеспечивает качественные и безопасные условия труда на всех предприятиях Группы «Татнефть», придерживается принципа гендерного равенства и равных возможностей, поддерживает достойный уровень оплаты труда и предоставляет надежные социальные гарантии работникам и социальную поддержку членам их семей.
-						
-
+				.dmpage-detail 
+					
+					include ./page-parts/b3/personal.pug
+				//	include ./page-parts/b3/sistema-upravleniya.pug
+					include ./page-parts/b3/struktura.pug	
+					include ./page-parts/b3/oplata-truda.pug
+					include ./page-parts/b3/obuchenie-i-razvitie.pug
+					include ./page-parts/b3/razvitie-molodezhi.pug
+					include ./page-parts/b3/kollektivnoe-predstavitelstvo.pug
+					include ./page-parts/b3/socialnoe-obespechenie.pug
 block scripts
+	
+
+
+
+

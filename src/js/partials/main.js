@@ -41,6 +41,12 @@ $(document).ready(function () {
 
 	});
 
+	$('body').on('click', '.dmpage-menu-mob-header', /*'.js-dmpage-accordion ',*/function () {
+		$(this).closest('.dmpage-menu').toggleClass('dmpage-menu--active');
+		$(this).siblings('.dmpage-menu__inner').stop(true).slideToggle(500);
+
+	});
+
 	function myOpenToolTip(chart, datasetIdx, el_index) {
 		/*var mouseMoveEvent, meta, point, rectangle, value;
 		meta = myChart.getDatasetMeta(index);

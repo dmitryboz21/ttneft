@@ -20,15 +20,56 @@ block main
 
 			.dmpage-top
 				.dmpage-top__pic
-					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+					img(src="img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="okruzhayushaya-sreda.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="okruzhayushaya-sreda.html") К началу раздела
+						a.dmpage-menu-item(href="poziciya-kompanii-v-oblasti-izmeneniya-klimata.html") Позиция Компании в области изменения климата
+						a.dmpage-menu-item(href="klimaticheskie-celi.html") Климатические цели
+						a.dmpage-menu-item(href="vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.html") Взаимодействие по вопросам климатической повестки
+						a.dmpage-menu-item(href="sistema-ekologicheskogo-menedzhmenta.html") Система экологического менеджмента
+						a.dmpage-menu-item(href="risk-menedzhment.html") Риск-менеджмент
+						a.dmpage-menu-item(href="vozmozhnosti-svyazannye-s-klimatom.html") Возможности, связанные с климатом
+						a.dmpage-menu-item(href="vklad-v-zashitu-okruzhayushej-sredy.html") Вклад в защиту окружающей среды
+						a.dmpage-menu-item.dmpage-menu-item--active(href="ekologicheskaya-programma.html") Экологическая программа
+						a.dmpage-menu-item(href="vybrosy-v-atmosferu.html") Выбросы в атмосферу
+						a.dmpage-menu-item(href="vybrosy-zagryaznyayushih-veshestv.html") Выбросы загрязняющих веществ
+						a.dmpage-menu-item(href="vodozabor-i-vodopotreblenie.html") Водозабор и водопотребление
+						a.dmpage-menu-item(href="vodootvedenie.html") Водоотведение
+						a.dmpage-menu-item(href="obrashenie-s-othodami.html") Обращение с отходами
+						a.dmpage-menu-item(href="otvetstvennoe-potreblenie.html") Ответственное потребление
+						a.dmpage-menu-item(href="sohranenie-bioraznoobraziya.html") Сохранение биоразнообразия
+						a.dmpage-menu-item(href="resursoeffektivnost.html") Ресурсоэффективность
+
 
 			.dmpage-main
-				.dmpage-detail
-					.dmpage-text
-						p Достижение установленных целей в области экологической безопасности, снижения воздействия на окружающую среду, в том числе в области климатических аспектов и выбросов парниковых газов, реализуется через последовательно формируемые природоохранные программы. С 1990 года были успешно реализованы четыре природоохранные программы. Примененный комплексный подход к решению экологических вопросов позволил добиться улучшения состояния окружающей среды и снижения техногенного влияния нефтедобычи.
-						p С 2021 года действует пятая экологическая программа Компании, разработанная на период до 2025 года с целью поддержания состояния окружающей среды региона деятельности Компании на нормативно допустимом уровне, соответствующем потенциальным возможностям самовосстановления природных экосистем.
-						p Экологическая программа объединяет усилия всех предприятий Группы «Татнефть» по сохранению качества окружающей среды. Программа учитывает не только законодательные требования к природоохранной деятельности, но и взятые на себя дополнительные обязательства. Основой программы является риск-ориентированный подход и цели по снижению техногенного воздействия на окружающую среду.
-						h1.red тут таблица!!!
-						
-
+				.dmpage-detail 
+					//	include ./page-parts/b2/okruzhayushaya-sreda.pug
+						include ./page-parts/b2/poziciya-kompanii-v-oblasti-izmeneniya-klimata.pug
+						include ./page-parts/b2/klimaticheskie-celi.pug
+						include ./page-parts/b2/vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.pug
+						include ./page-parts/b2/sistema-ekologicheskogo-menedzhmenta.pug
+						include ./page-parts/b2/risk-menedzhment.pug
+						include ./page-parts/b2/vozmozhnosti-svyazannye-s-klimatom.pug
+						include ./page-parts/b2/vklad-v-zashitu-okruzhayushej-sredy.pug
+					include ./page-parts/b2/ekologicheskaya-programma.pug
+				//	include ./page-parts/b2/vybrosy-v-atmosferu.pug
+					include ./page-parts/b2/vybrosy-zagryaznyayushih-veshestv.pug
+					include ./page-parts/b2/vodozabor-i-vodopotreblenie.pug
+					include ./page-parts/b2/vodootvedenie.pug
+					include ./page-parts/b2/obrashenie-s-othodami.pug
+					include ./page-parts/b2/otvetstvennoe-potreblenie.pug
+					include ./page-parts/b2/sohranenie-bioraznoobraziya.pug
+					include ./page-parts/b2/resursoeffektivnost.pug
+					
 block scripts
+	
+
+
+
+

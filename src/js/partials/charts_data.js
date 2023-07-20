@@ -903,7 +903,7 @@ window.dmpageCharts['chart-bubbles-23-1'] = {
 	],
 	datasets: [
 		{
-			label: 'лояльности (ENPS)',
+			label: 'лояльности (ENPS)**',
 			backgroundColor: "#F04043",
 			borderColor: "#F04043",
 			data: [

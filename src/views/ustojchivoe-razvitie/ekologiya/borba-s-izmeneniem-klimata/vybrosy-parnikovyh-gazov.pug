@@ -1,0 +1,407 @@
+extends ../../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Выбросы парниковых газов
+
+			h1.dmpage-h1 Выбросы парниковых газов
+
+		.dmpage
+			include ../../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html") К началу раздела
+						a.dmpage-menu-item(href="strategiya-dekarbonizacii.html") Стратегия декарбонизации
+						a.dmpage-menu-item(href="risk-menedzhment.html") Риск-менеджмент
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vybrosy-parnikovyh-gazov.html") Выбросы парниковых газов
+						a.dmpage-menu-item(href="resursoeffektivnost.html") Ресурсоэффективность
+						a.dmpage-menu-item(href="vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.html") Взаимодействие по вопросам климатической повестки
+						
+
+
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p Важнейший элемент системы управления климатическими рисками — это оценка уровня выбросов парниковых газов. На корпоративном уровне утверждены стратегические цели Компании по снижению выбросов парниковых газов. В Компании контроль и учет выбросов парниковых газов регламентированы стандартом управления выбросами. 
+
+						p Система учета и отчетности по выбросам парниковых газов в Группе «Татнефть» соответствует стандарту и рекомендациям GreenhouseGas Protocol (GHGProtocol), ISO 14064 и нацелена на обеспечение раскрытия информации в отношении климатических аспектов в соответствии с рекомендациями Task Force On Climate-Related Financial Disclosures (TCFD). Компания ведет учет парниковых газов, образующихся в процессе производственной деятельности:
+						ul
+							li 
+								b углекислого газа (СО2)
+								| , образующегося при сжигании топлива на стационарных источниках горения (котельные агрегаты, печи и другое теплотехническое оборудование), в результате сжигания газа на факельных установках, от промышленных процессов, связанных с переработкой нефти на нефтеперерабатывающих предприятиях, а также при использовании топлива транспортными средствами
+							li 
+								b метана (СН4)
+								| , выбросы которого осуществляются в результате сжигания газа на факельных установках, при эксплуатации очистных сооружений, от неплотностей технологического оборудования, в результате удаления технологических газов в атмосферу через свечи (отведение, рассеивание, стравливание) без сжигания или каталитического окисления
+
+						p Из всей массы прямых выбросов 95,4% приходится на углекислый газ и 4,6% на метан (согласно приложению № 3 Методических указаний, утв. Приказом Минприроды РФ от 30.06.2015 № 300, для пересчета метана (СН4) в тонны CO2 - экв. используется потенциал глобального потепления (GWPi), равный 25). Других наименований парниковых газов в прямых выбросах предприятий Группы «Татнефть» нет (по классификации, установленной распоряжением Правительства РФ от 22.10.2021 № 2979-р). При расчете косвенных выбросов учитываются выбросы углекислого газа. 
+
+						p 
+							b Согласно рекомендациям «Корпоративного стандарта GHG Protocol» для последовательного сравнения выбросов с течением времени в качестве базового выбран 2021 год (год включения климатического раздела в Стратегию развития Компании). 
+
+
+
+						p В связи с изменением в 2022 году периметра Группы «Татнефть» для корректного сопоставления динамики выбросов по Группе «Татнефть» выбросы парниковых газов были пересчитаны. 
+						p Изменения в периметре учета выбросов парниковых газов: — выход из состава Группы "Татнефть" шинного бизнеса и присоединение предприятий сервисного блока.
+
+
+					.dmpage-table-section.dmpage-table-section--small 
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th
+											p Выбросы парниковых газов (Scope 1, Scope 2), млн т СО2-экв
+										th
+											p 2020
+										th
+											p 2021
+										th
+											p 2022
+								tbody
+									tr.dmpage-table__tr--with-border
+										td
+											p 
+												b Scope 1, в том числе:
+										td
+											p 
+												b 6,84
+										td
+											p 
+												b 7,61  
+										td
+											p 
+												b 8,31 
+									tr
+										td
+											p Разведка и добыча
+										td
+											p 2,26
+										td
+											p 2,19
+										td
+											p 2,11
+									tr
+										td
+											p Нефтегазопереработка*
+										td
+											p 2,17
+										td
+											p 2,64
+										td
+											p 3,38
+									tr
+										td
+											p Нефтегазохимия**
+										td
+											p 0,41
+										td
+											p 0,30
+										td
+											p 0,28
+									tr
+										td
+											p Энергетика
+										td
+											p 1,94
+										td
+											p 2,30
+										td
+											p 2,36
+									tr
+										td
+											p Композитные материалы
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Розничный бизнес
+										td
+											p 0,01
+										td
+											p 0,01
+										td
+											p 0,01
+									tr
+										td
+											p Машиностроение***
+										td
+											p 0,02
+										td
+											p 0,005
+										td
+											p 0,003
+									tr
+										td
+											p Прочие предприятия Группы****
+										td
+											p 0,0306
+										td
+											p 0,1506
+										td
+											p 0,1505
+									tr.dmpage-table__tr--with-border
+										td 
+										td 
+										td 
+										td 
+									tr.dmpage-table__tr--with-border
+										td
+											p
+												b Scope 2, в том числе:
+										td
+											p
+												b 4,12
+										td
+											p
+												b 4,85
+										td
+											p
+												b 5,25
+									tr
+										td
+											p Разведка и добыча
+										td
+											p 1,99
+										td
+											p 2,55
+										td
+											p 2,92
+									tr
+										td
+											p Нефтегазопереработка
+										td
+											p 0,92
+										td
+											p 1,01
+										td
+											p 1,18
+									tr
+										td
+											p Энергетика
+										td
+											p 0,004
+										td
+											p 0,008
+										td
+											p 0,007
+									tr
+										td
+											p Нефтегазохимия
+										td
+											p 0,96
+										td
+											p 1,02
+										td
+											p 0,87
+									tr
+										td
+											p Композитные материалы
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Розничный бизнес
+										td
+											p 0,05
+										td
+											p 0,05
+										td
+											p 0,06
+									tr
+										td
+											p Машиностроение***
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Прочие предприятия Группы****
+										td
+											p 0,16
+										td
+											p 0,16
+										td
+											p 0,16 
+
+					.dmpage-text
+						p Сумма показателей в некоторых строках может не совпадать с общим итогом вследствие округления. 
+					.dmpage-text.dmpage-text--small
+						p * Уточнены данные за 2021 год. 
+						p ** Уточнены данные за 2020-2021 годы. 
+						p *** В связи с исключением в 2022 году ООО «Завод «БУММАШ» из состава Группы «Татнефть», данные пересчитаны до базового года. 
+						p **** Данные пересчитаны до базового года
+
+					.dmpage-text
+						h3 ВЫБРОСЫ ПАРНИКОВЫХ ГАЗОВ (SCOPE 1), T CO<SUP>2</SUP>-ЭКВ.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image99.png", alt="")
+						p В Компании применяются технологии по снижению использования электро- и теплоэнергии за счёт применения пеллетных котлов. В соответствии с Методическими указаниями количественного определения объемов выбросов при выполнении оценки выбросов парниковых газов от использования биомассы, эти данные не суммируются с другими выбросами парниковых газов.
+						h3 ВЫБРОСЫ ПАРНИКОВЫХ ГАЗОВ (SCOPE 3), МЛН T CO<SUP>2</SUP>-ЭКВ.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image94.png", alt="")
+
+						.dmpage-table-section.dmpage-table-section--small
+							.dmpage-table-overflow
+								table.dmpage-table
+									colgroup.dmptable-colgroup-1
+										col.dmptable-col-1.dmptable-col-1--aw
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other(span=3)
+									thead
+										tr
+											th
+												p Выбросы парниковых газов (Scope 3), млн т СО2-экв.
+											th
+												p 2020
+											th
+												p 2021*
+											th
+												p 2022
+						
+									tbody
+										tr
+											td
+												p Выбросы парниковых газов (Scope 3), млн т СО2-экв.
+											td
+												p 2020
+											td
+												p 2021*
+											td
+												p 2022
+										tr
+											td
+												p Командировки** 
+											td
+												p 0,0004 
+											td
+												p 0,001 
+											td
+												p 0,001
+										tr
+											td
+												p Производство и транспортировка природного газа*** 
+											td
+												p 0,71 
+											td
+												p 0,82
+											td
+												p 0,76
+										tr
+											td
+												p Обработка и использование проданных продуктов 
+											td
+												p 100,81 
+											td
+												p 110,85 
+											td
+												p 103,47
+										tr
+											td
+												p Итого 
+											td
+												p 101,52 
+											td
+												p 111,68 
+											td
+												p 104,24
+
+					.dmpage-text.dmpage-text--small
+						p *Выбросы ПГ пересчитаны до базового года в связи с изменением периметра учета. 
+						p ** Расчет выбросов ПГ при авиаперелете осуществляется при помощи калькулятора ИКАО. 
+						p ***Расчет выбросов ПГ от потребленного природного газа осуществляется на основании данных удельных выбросов добычи, транспортировки и переработки природного газа ПАО «Газпром». 
+						p ****Расчет выбросов ПГ при обработке и использовании проданных продуктов осуществляется на основании коэффициентов Методических указаний, утв. Приказом Минприроды РФ от 30.06.2015 № 300.
+
+					.dmpage-text
+						p 
+							b В 2022 году в периметр учета косвенных выбросов парниковых газов Scope 3 включены выбросы парниковых газов от авиаперелетов сотрудников
+						
+						h3 ПРИМЕНЯЕМЫЕ МЕТОДИКИ
+						p 1. Прямые выбросы парниковых газов (Scope 1) рассчитаны в соответствии с требованиями следующих нормативных документов: 
+						ul
+							li Приказ Минприроды России № 300 от 30.06.2015 «Об утверждении методических указаний и руководства по количественному определению объема выбросов парниковых газов организациями, осуществляющими хозяйственную и иную деятельность в Российской Федерации»; 
+							li The Greenhouse Gas Protocol (A Corporate Accounting and Reporting Standard). 
+
+						p 2. Расчеты косвенных выбросов парниковых газов (Scope 2, 3) проведены в соответствии с требованиями следующих нормативных документов: 
+						ul
+							li Приказ Минприроды России № 330 от 29.06.2017 «Об утверждении методических указаний по количественному определению объема косвенных энергетических выбросов парниковых газов»; 
+						
+							li The Greenhouse Gas Protocol (A Corporate Accounting and Reporting Standard); 
+						
+							li Corporate Value Chain (Scope 3) Accounting and Reporting Standard
+
+						p Для расчетов Scope 2 использован коэффициент энергетических выбросов от ООО «Нижнекамская ТЭЦ».
+
+						h2 ИНТЕНСИВНОСТЬ ВЫБРОСОВ ПАРНИКОВЫХ ГАЗОВ 
+						h3 ИНТЕНСИВНОСТЬ ВЫБРОСОВ (SCOPE 1)
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image65.png", alt="")
+						p Снижение интенсивности прямых выбросов парниковых газов при добыче нефти составило 8%. Сокращение достигнуто за счет реализации мероприятий по повышению уровня полезного использования ПНГ и оптимизации работы печей.
+						p Рост удельных выбросов при переработке нефти связан с обеспечением высокой глубины переработки нефти — 99 % (средний показатель по России — 83,5%).
+						h3 ИНТЕНСИВНОСТЬ ВЫБРОСОВ (SCOPE 1+2)
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image63.png", alt="")
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image66.png", alt="")
+					.dmpage-text.dmpage-text--small
+						p *Уточнены данные за 2021 год. 
+						p **Уточнены данные за 2020-2021 годы. 
+						p ***В расчет включены выбросы по АО «ТАНЕКО» и УТНГП ПАО «Татнефть».
+
+	
+					.dmpage-accordions-wrap
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text  Приложение 6
+									
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li
+												a(href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_6/prilozhenie_6.1._zakljuchenie_o_verifikacii_istochnikov_vybrosov_parnikovyh_gazov.pdf" download) Заключение по инвентаризации источников выбросов парниковых газов по Группе «Татнефть» за 2022 год
+											li
+												a(href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_6/prilozhenie_6.2._zakljuchenie_verifikacionnogo_audita_tatneft_2022.pdf" download) Заключение верификационного аудита ФБК
+
+
+
+
+block scripts
+	
+
+
+
+

@@ -1,0 +1,142 @@
+extends layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'index.html'
+		};
+
+
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Карта
+
+			h1.dmpage-h1 Карта
+
+		.dmpage
+			include ./partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/649d25b6e61e7812629059.jpg", alt="")
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text 
+						p
+							a(href="/ustojchivoe-razvitie.html") Устойчивое развитие
+						p
+							a(href="okruzhayushaya-sreda.html") Окружающая среда
+						p
+							a(href="personal.html") Персонал
+						p
+							a(href="bezopasnost-proizvodstva.html") Безопасность производства
+						p
+							a(href="sodejstvie-socialnomu-razvitiyu.html") Содействие социальному развитию
+						p
+							a(href="ratings.html") Рейтинги и рэнкинги устойчивого развития
+
+					//	p
+							a(href="bezopasnost-proizvodstva.html") bezopasnost-proizvodstva.pug
+						p
+							a(href="bezopasnost-rabochih-mest.html") bezopasnost-rabochih-mest.pug
+						p
+							a(href="blagotvoritelnyj-fond.html") blagotvoritelnyj-fond.pug
+						p
+							a(href="chlenstvo-v-associaciyah.html") chlenstvo-v-associaciyah.pug
+						p
+							a(href="ekologicheskaya-programma.html") ekologicheskaya-programma.pug
+						p
+							a(href="investicii-v-novye-pokoleniya.html") investicii-v-novye-pokoleniya.pug
+						p
+							a(href="klimaticheskie-celi.html") klimaticheskie-celi.pug
+						p
+							a(href="kollektivnoe-predstavitelstvo.html") kollektivnoe-predstavitelstvo.pug
+						p
+							a(href="navigator-cur-oon.html") navigator-cur-oon.pug
+						p
+							a(href="obrashenie-s-othodami.html") obrashenie-s-othodami.pug
+						p
+							a(href="obuchenie-i-razvitie.html") obuchenie-i-razvitie.pug
+						p
+							a(href="ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.html") ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.pug
+						p
+							a(href="okruzhayushaya-sreda.html") okruzhayushaya-sreda.pug
+						p
+							a(href="oplata-truda.html") oplata-truda.pug
+						p
+							a(href="otvetstvennoe-potreblenie.html") otvetstvennoe-potreblenie.pug
+						p
+							a(href="personal.html") personal.pug
+						p
+							a(href="podderzhka-iniciativ-razvitiya.html") podderzhka-iniciativ-razvitiya.pug
+						p
+							a(href="podhod-k-upravleniyu.html") podhod-k-upravleniyu.pug
+						p
+							a(href="poziciya-kompanii-v-oblasti-izmeneniya-klimata.html") poziciya-kompanii-v-oblasti-izmeneniya-klimata.pug
+						p
+							a(href="prava-cheloveka.html") prava-cheloveka.pug
+						p
+							a(href="ratings.html") ratings.pug
+						p
+							a(href="razvitie-molodezhi.html") razvitie-molodezhi.pug
+						p
+							a(href="razvitie-socialnoj-infrastruktury.html") razvitie-socialnoj-infrastruktury.pug
+						p
+							a(href="resursoeffektivnost.html") resursoeffektivnost.pug
+						p
+							a(href="risk-menedzhment.html") risk-menedzhment.pug
+						p
+							a(href="sistema-ekologicheskogo-menedzhmenta.html") sistema-ekologicheskogo-menedzhmenta.pug
+						p
+							a(href="sistema-upravleniya-2.html") sistema-upravleniya-2.pug
+						p
+							a(href="sistema-upravleniya.html") sistema-upravleniya.pug
+						p
+							a(href="sitemap.html") sitemap.pug
+						p
+							a(href="socialnoe-obespechenie.html") socialnoe-obespechenie.pug
+						p
+							a(href="sodejstvie-socialnomu-razvitiyu.html") sodejstvie-socialnomu-razvitiyu.pug
+						p
+							a(href="sohranenie-bioraznoobraziya.html") sohranenie-bioraznoobraziya.pug
+						p
+							a(href="sohranenie-kulturnogo-naslediya.html") sohranenie-kulturnogo-naslediya.pug
+						p
+							a(href="struktura.html") struktura.pug
+						p
+							a(href="tehnogennye-proisshestviya.html") tehnogennye-proisshestviya.pug
+						p
+							a(href="/ustojchivoe-razvitie.html") ustojchivoe-razvitie.pug
+						p
+							a(href="vklad-v-zashitu-okruzhayushej-sredy.html") vklad-v-zashitu-okruzhayushej-sredy.pug
+						p
+							a(href="vodootvedenie.html") vodootvedenie.pug
+						p
+							a(href="vodozabor-i-vodopotreblenie.html") vodozabor-i-vodopotreblenie.pug
+						p
+							a(href="vozmozhnosti-svyazannye-s-klimatomvozmozhnosti-svyazannye-s-klimatom.html") vozmozhnosti-svyazannye-s-klimatomvozmozhnosti-svyazannye-s-klimatom.pug
+						p
+							a(href="vybrosy-v-atmosferu.html") vybrosy-v-atmosferu.pug
+						p
+							a(href="vybrosy-zagryaznyayushih-veshestv.html") vybrosy-zagryaznyayushih-veshestv.pug
+						p
+							a(href="vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.html") vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.pug
+						p
+							a(href="vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.html") vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.pug
+						p
+							a(href="zdorovyj-obraz-zhizni.html") zdorovyj-obraz-zhizni.pug
+
+							
+block scripts
+	script(src="js/page-index.js")

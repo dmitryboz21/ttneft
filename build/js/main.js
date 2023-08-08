@@ -1774,6 +1774,24 @@ $(document).ready(function () {
 
 	});
 
+
+	$('body').on('click', '.js-dmpage-extendable-doc', function () {
+		$(this).addClass('dmpage-extendable-doc--active');
+
+	});
+	
+	$('body').on('click', '.js-dmpage-extendable-doc .dmpage-extendable-doc__wrap', function (e) {
+		e.stopPropagation();
+		
+		$(this).closest('.dmpage-extendable-doc').removeClass('dmpage-extendable-doc--active');
+
+	});
+
+	
+	
+
+
+
 	function myOpenToolTip(chart, datasetIdx, el_index) {
 		/*var mouseMoveEvent, meta, point, rectangle, value;
 		meta = myChart.getDatasetMeta(index);

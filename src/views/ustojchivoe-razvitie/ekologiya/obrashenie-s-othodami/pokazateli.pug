@@ -1,0 +1,766 @@
+extends ../../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Показатели
+
+			h1.dmpage-h1 Показатели
+
+		.dmpage
+			include ../../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/ekologiya/obrashenie-s-othodami.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/ekologiya/obrashenie-s-othodami.html") К началу раздела
+						a.dmpage-menu-item.dmpage-menu-item--active(href="pokazateli.html") Показатели
+						a.dmpage-menu-item(href="dostizhenie-celej-cur-12.html") Достижение целей ЦУР 12
+
+
+						
+
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						p Одним из основных направлений в природоохранной деятельности Группы «Татнефть» является снижение техногенной нагрузки на окружающую среду за счёт сокращения объёмов образования отходов производства и потребления, а также увеличения доли утилизируемых отходов. Компанией внедрены наилучшие доступные технологии, создана комплексная система селективного накопления, сбора и переработки отходов производства и потребления, использования их в качестве сырья для получения товарной продукции. 
+						p На предприятиях Группы «Татнефть» утилизируется 47 наименований опасных отходов, в том числе нефтесодержащие отходы. При выборе контрагентов для оказания услуг по обращению с отходами Компания учитывает размер негативного воздействия на окружающую среду от применения технологий (операция по обращению с отходами, количество выбросов загрязняющих веществ в атмосферный воздух и количество парниковых газов на единицу перерабатываемых отходов и т.д.). 
+						p В 2022 году на предприятиях Группы «Татнефть» образовалось 307,001 тыс. т отходов. Количество образования отходов в 2022 году увеличилось на 40,8% по сравнению с прошлым годом за счет изменения состава Группы «Татнефть».
+						h3 ОБРАЩЕНИЕ С ОТХОДАМИ, ТЫС. Т
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image31.png", alt="")
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image30.png", alt="")
+						p В процессе производственной деятельности на предприятиях, в соответствии с лицензиями на право обращения с отходами, осуществляется деятельность по сбору, транспортированию, обработке, утилизации, обезвреживанию, размещению отходов I — IV классов опасности
+						p Количество отходов по состоянию на начало и конец каждого отчетного года (отходы, оставшиеся в накоплении) зависит от организации производственного процесса переработки образующихся отходов.
+						p Наличие отходов на начало года — 123,717 тыс. тонн. В отчетный период проведена частичная ликвидация шламонакопителя (ООО «Нижнекамская ТЭЦ»). Общий объем переработки (утилизация) шламонакопителя составил 82,1 тыс. тонн (ООО «Нижнекамская ТЭЦ»). Поступило отходов от других хозяйствующих субъектов-20,4 тыс. тонн. Наличие отходов на конец года-43,3 тыс. тонн.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image32.png", alt="")
+						p В 2022 году образовано отходов 1 — 4 класса опасности — 66,293 % (203,519 тыс. т), 5 класса опасности — 33,707 % (103,482 тыс. т). Методика сбора данных ведется по правилам формирования государственной статистической отчетности по форме № 2-ТП (отходы).
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image33.png", alt="")
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w ОБРАЩЕНИЕ С ОТХОДАМИ ПО БИЗНЕС-НАПРАВЛЕНИЯМ, ТЫС. Т
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								thead
+									tr
+										th(rowspan='2' ) Бизнес-направление
+										th(colspan='3' ) Образовано
+										th(colspan='3' ) Утилизировано<br> и обработано
+										th(colspan='3' ) Направлено на захоронение<br> и обезвреживание
+									tr.dmpage-table__tr--with-border
+
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+								tbody
+									tr
+										td Разведка и добыча
+										td 33,4
+										td 58,8
+										td 73,8
+										td 24,4
+										td 44,9
+										td 60,11
+										td 10,5
+										td 14,7
+										td 18,6
+									tr
+										td Ремонт и бурение скважин* 
+										td -
+										td -
+										td 92,9
+										td -
+										td -
+										td 91,69 
+										td -
+										td -
+										td 1,2
+									tr
+										td Машиностроение
+										td 16,1 
+										td 17
+										td 44,4
+										td 46,5
+										td 34,3
+										td 54,87
+										td 1,5
+										td 1,8
+										td 4,8
+									tr
+										td Нефтегазопереработка
+										td 15,32 
+										td 17,8
+										td 14,2
+										td 10
+										td 14,6
+										td 11,49
+										td 4,9 
+										td 4,5
+										td 3,5
+									tr
+										td Розничный бизнес
+										td 25
+										td 24,8
+										td 29,7
+										td 0,3
+										td 0,4
+										td 1,50
+										td 24,1
+										td 24,5
+										td 28,3
+									tr
+										td Шинный бизнес
+										td 36
+										td 25,6
+										td -
+										td 19,2
+										td 17,6 
+										td -
+										td 24,3
+										td 15,5
+										td -
+									tr
+										td Композиционные материалы
+										td 3,4
+										td 4,6
+										td 3,8
+										td 1 
+										td 0,5
+										td 0,57
+										td 2,4
+										td 4
+										td 3,3
+									tr
+										td Энергетика 
+										td 3,3
+										td 2,9
+										td 3,5
+										td 1,7
+										td 1,1
+										td 82,37
+										td 0,4
+										td 0,4
+										td 0,6
+									tr
+										td Трейдинг и логистика
+										td 0
+										td 0,012 
+										td 0
+										td 0
+										td 0
+										td 0
+										td 0
+										td 0,011
+										td 0
+									tr
+										td Социальное развитие
+										td 0,08
+										td 1,1 
+										td 2,5
+										td 0
+										td 0,1
+										td 0,18
+										td 0,08
+										td 1
+										td 2,3
+									tr
+										td Цифровое развитие
+										td 0,00
+										td 0,08
+										td 0,4
+										td 0
+										td 0
+										td 0,01
+										td 0
+										td 0,08
+										td 0,4
+									tr
+										td Прочие предприятия Группы
+										td 70
+										td 53,9 
+										td 30,60
+										td 69,2
+										td 48,07
+										td 21,47
+										td 0,7
+										td 5,9
+										td 9,1
+									tr
+										td Нефтегазохимия 
+										td 10,5
+										td 11,3
+										td 11,2
+										td 1,6
+										td 2
+										td 2,16
+										td 8,9
+										td 10,1
+										td 9,6
+									tr
+										td Геологоразведка**
+										td 5,9
+										td 0
+										td 0
+										td 5,7
+										td 0
+										td 0
+										td 0,1
+										td 0
+										td 0
+									tr
+										td Итого
+										td 218,8
+										td 218,0
+										td 307,0
+										td 179,6
+										td 163,6
+										td 326,4 
+										td 77,8 
+										td 82,5
+										td 81,7
+					.dmpage-text.dmpage-text--small * Бизнес-блок «Ремонт и бурение скважин» вошел в состав Группы «Татнефть» в 2022 году.
+					.dmpage-text.dmpage-text--small **В связи с реорганизацией структуры Компании в 2021 году показатели по отходам бизнес-направления «Геологоразведка» включены в бизнес-направление «Разведка и добыча».
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w ОБРАЩЕНИЕ С ОТХОДАМИ (УТИЛИЗАЦИЯ, ОБРАБОТКА), ТЫС. Т
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								thead
+									tr
+										th Вид обращения с отходами
+										th(colspan='3')
+											p На территории предприятий Группы
+										th(colspan='3') Вне территории предприятий Группы
+										th(colspan='3') Итого
+									tr.dmpage-table__tr--with-border
+
+										td
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+								tbody
+									tr.dmpage-table__tr--with-border
+										td(colspan='10')
+											p опасные отходы
+									tr
+										td
+											p утилизировано
+										td
+											p 3,8
+										td
+											p 5,2
+										td
+											p 7,39
+										td
+											p 37,9
+										td
+											p 49,7
+										td
+											p 143,25
+										td
+											p 41.7
+										td
+											p 54,9
+										td
+											p 150,64
+									tr
+										td
+											p обработано
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0,007
+										td
+											p 0,077
+										td
+											p 0.23
+										td
+											p 0,007
+										td
+											p 0,077
+										td
+											p 0,23
+									tr.dmpage-table__tr--with-border
+										td
+											p Итого
+										td
+											p 3,8
+										td
+											p 5,2
+										td
+											p 7,39
+										td
+											p 38,0
+										td
+											p 49,8
+										td
+											p 143,48
+										td
+											p 41,8
+										td
+											p 55
+										td
+											p 150,87
+									tr.dmpage-table__tr--with-border
+										td(colspan='10')
+											p неопасные отходы
+									tr
+										td
+											p утилизировано
+										td
+											p 34,7
+										td
+											p 37,5
+										td
+											p 39,31
+										td
+											p 103,1
+										td
+											p 70,7
+										td
+											p 135,77
+										td
+											p 137,8
+										td
+											p 108,2
+										td
+											p 175,08
+									tr
+										td
+											p обработано
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0,04
+										td
+											p 0,4
+										td
+											p 0,47
+										td
+											p 0,04
+										td
+											p 0,4
+										td
+											p 0,47
+									tr
+										td
+											p Итого
+										td
+											p 34,7
+										td
+											p 37,5
+										td
+											p 39,31
+										td
+											p 103,1
+										td
+											p 71,1
+										td
+											p 136,24
+										td
+											p 137,8
+										td
+											p 108,6
+										td
+											p 175,55
+					
+					.dmpage-table-section
+						h3.dmpage-table-title ОБРАЩЕНИЕ С ОТХОДАМИ (ОБЕЗВРЕЖИВАНИЕ, ЗАХОРОНЕНИЕ), ТЫС. Т
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span=3)
+									
+								thead 
+									tr
+										th Вид обращения с отходами
+										th(colspan='3')
+											p На территории предприятий Группы
+										th(colspan='3') Вне территории предприятий Группы
+										th(colspan='3') Итого
+
+									tr.dmpage-table__tr--with-border
+
+										td
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+										td 2020
+										td 2021
+										td 2022
+							
+								tbody 
+									tr.dmpage-table__tr--with-border
+										td(colspan='10')
+											p опасные отходы	
+									tr
+										td
+											p обезвреживание
+										td
+											p 3,3
+										td
+											p 3
+										td
+											p 0
+										td
+											p 19,8
+										td
+											p 20,8
+										td
+											p 27,57
+										td
+											p 23,1
+										td
+											p 23,8
+										td
+											p 27,57
+									tr
+										td
+											p в т. ч. сжигание
+										td
+											p 3,3
+										td
+											p 3
+										td
+											p 0
+										td
+											p 7,2
+										td
+											p 5,9
+										td
+											p 0.16
+										td
+											p 10,5
+										td
+											p 8,9
+										td
+											p 0,16
+									tr
+										td
+											p - с получением энергии
+										td
+											p 3,3
+										td
+											p 3
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 3,3
+										td
+											p 3
+										td
+											p 0
+									tr
+										td
+											p - без получения энергии
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 7,2
+										td
+											p 5,9
+										td
+											p 0.16
+										td
+											p 7,2
+										td
+											p 5,9
+										td
+											p 0,16
+									tr
+										td
+											p захоронение (кроме ТКО)
+										td
+											p 15,8
+										td
+											p 12,2
+										td
+											p 7,11
+										td
+											p 14,7
+										td
+											p 16,6
+										td
+											p 16,03
+										td
+											p 30,5
+										td
+											p 28.8
+										td
+											p 23,14
+									tr
+										td
+											p передача ТКО региональному оператору
+										td
+											p 0
+										td
+											p 0
+										td
+											p 0
+										td
+											p 4.6
+										td
+											p 6.6
+										td
+											p 8.12
+										td
+											p 4.6
+										td
+											p 6.6
+										td
+											p 8,12
+									tr.dmpage-table__tr--with-border
+										td
+											p Итого
+										td
+											p 19,1
+										td
+											p 15,2
+										td
+											p 7,11
+										td
+											p 39,1
+										td
+											p 44,0
+										td
+											p 51,72
+										td
+											p 58,2
+										td
+											p 59,2
+										td
+											p 58,83
+									tr.dmpage-table__tr--with-border
+										td(colspan='10' )
+											p неопасные отходы
+									tr
+										td()
+											p обезвреживание
+										td()
+											p 0.9
+										td()
+											p 0.9
+										td()
+											p 0
+										td()
+											p 0.8
+										td()
+											p 0.7
+										td()
+											p 0.01
+										td()
+											p 1.7
+										td()
+											p 1.6
+										td()
+											p 0.01
+									tr
+										td()
+											p в т. ч. сжигание
+										td()
+											p 0.9
+										td()
+											p 0.9
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0.9
+										td()
+											p 0.9
+										td()
+											p 0
+									tr
+										td()
+											p - с получением энергии
+										td()
+											p 0.9
+										td()
+											p 0.9
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0.9
+										td()
+											p 0.9
+										td()
+											p 0
+									tr
+										td()
+											p - без получения энергии
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0.7
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0.7
+										td()
+											p 0
+									tr
+										td()
+											p захоронение (кроме ТКО)
+										td()
+											p 4.4
+										td()
+											p 0.8
+										td()
+											p 0
+										td()
+											p 7
+										td()
+											p 13.4
+										td()
+											p 15,10
+										td()
+											p 11.4
+										td()
+											p 14.2
+										td()
+											p 15,10
+									tr
+										td()
+											p передача ТКО региональному оператору
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 0
+										td()
+											p 6.5
+										td()
+											p 7.5
+										td()
+											p 7.76
+										td()
+											p 6.5
+										td()
+											p 7.5
+										td()
+											p 7.76
+									tr
+										td()
+											p Итого
+										td()
+											p 5,3
+										td()
+											p 1,7
+										td()
+											p 0
+										td()
+											p 14,3
+										td()
+											p 21,6
+										td()
+											p 22,87
+										td()
+											p 19,6
+										td()
+											p 23,3
+										td()
+											p 22,87
+					.dmpage-text
+						p На АО «Танеко» эксплуатируется специализированный полигон захоронения промотходов. Имеющийся противофильтрационный экран из геосинтетической мембраны (HDPE) исключает вероятность биологического и химического загрязнения прилегающих территорий, грунтовых вод, и обеспечивает сбор фильтрата для последующей его транспортировки на очистные сооружения. Отходы, размещенные таким образом, можно извлечь для утилизации при появлении новых технологий переработки.
+						h2 ОБРАЩЕНИЕ С ОТХОДАМИ БУРЕНИЯ
+						p Предприятиями Группы «Татнефть» образовано и переработано 94,997 тыс. т буровых отходов. Отходы, образующиеся при бурении скважин подрядными организациями, согласно договорным условиям являются собственностью подрядчиков. В Компании налажена система учета и контроля за движением отходов, образованных при бурении скважин подрядными организациями, а также система компенсации их затрат на утилизацию буровых отходов.
+
+
+
+
+
+block scripts
+	
+
+
+
+

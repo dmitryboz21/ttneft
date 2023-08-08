@@ -1,0 +1,132 @@
+extends ../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Экология
+
+			h1.dmpage-h1 ЭКОЛОГИЯ
+
+		.dmpage
+			include ../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie.html") К началу раздела
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/ekologicheskij-menedzhment.html") Экологический менеджмент 
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html") Борьба с изменением климата
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/ohrana-atmosfernogo-vozduha.html") Охрана атмосферного воздуха
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/monitoring-atmosfernogo-vozduha.html") Мониторинг атмосферного воздуха
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/vodozabor-i-vodopotreblenie.html") Водозабор и водопотребление
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/dostizhenie-celej-cur.html") Достижение целей ЦУР
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/gidromonitoring.html") Гидромониторинг
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/obrashenie-s-othodami.html") Обращение с отходами
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/sohranenie-bioraznoobraziya.html") Сохранение биоразнообразия
+						
+
+			.dmpage-main
+				.dmpage-detail 
+				
+					.dmpage-text
+						p Компания придерживается принципов Глобального договора ООН и оценивает воздействия планируемой и осуществляемой деятельности на окружающую среду при принятии управленческих и инвестиционных решений наряду с другими значимыми факторами, а также в решении экологических проблем, вопросов промышленной безопасности и охраны труда. 
+						p При осуществлении своей деятельности Компания отдает приоритет мероприятиям, направленным на предупреждение возможного негативного воздействия на окружающую среду. Выявление опасностей, оценка и управление рисками в области обеспечения охраны окружающей среды, климатическими рисками осуществляется на всех этапах жизненного цикла производства, начиная с предпроектных изысканий. 
+						p Утвержденная «Стратегия развития в области промышленной безопасности, охраны труда и окружающей среды Группы „Татнефть“ до 2030 года» определяет цели и ответственность Компании в области климатических аспектов и выбросов парниковых газов. Компания применяет в своей производственной деятельности передовые научные достижения и инновационные технические решения, системы и процессы с учётом мирового опыта и наилучших доступных технологий в целях предотвращения изменения климата, а также снижения негативного воздействия на окружающую среду.
+
+					.dmpage-quote
+						a.dmpage-quote__link(download href="https://www.tatneft.ru/uploads/publications/63be9dd47a271151714268.pdf")
+
+						|  Политика ПБОТОС
+
+					//.dmpage-quote
+						a.dmpage-quote__link(target="_blank" href="https://www.tatneft.ru/sustainable_development/industrial_safety")
+
+						|  Внутренним документом, отражающим позицию и подходы Компании в области воздействия на окружающую среду и климат, является «Политика ПАО «Татнефть» им. В.Д. Шашина в области промышленной безопасности, охраны труда и окружающей среды с учетом изменения климата».
+					.dmpage-accordions-wrap
+						h3.dmpage-accordions-title ПРИОРИТЕТНЫЕ ЦЕЛИ УСТОЙЧИВОГО РАЗВИТИЯ
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text минимизация влияния на изменение климата
+
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li сокращение выбросов парниковых газов и снижение углеродного следа 
+											li применение экологически чистых и альтернативных источников энергии 
+											li увеличение уровня полезного использования попутного нефтяного газа 
+											li контроль воздействия на окружающую среду в цепочке поставок и меры по минимизации такого воздействия
+
+
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text благоприятные окружающая среда и условия жизнедеятельности
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li недопущение экологического ущерба от хозяйственной деятельности
+											li снижение потерь сырья и продукции на всех этапах производственной деятельности и предотвращение их попадания в окружающую среду 
+											li применение наилучших доступных технологий, оборудования, цифровых решений управления технологическими процессами 
+											li предотвращение возникновения аварийных ситуаций и принятие всех возможных мер по минимизации их последствий
+											li предотвращение негативного воздействия на природные объекты
+
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text сохранение естественных экологических систем и биологического разнообразия
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li сведение к минимуму проведение работ на особо охраняемых природных территориях и в их охранных зонах 
+											li восстановление биоразнообразия, мест обитания, путей миграции животных и компенсации возможного ущерба окружающей среде 
+											li снижение фрагментации природных ландшафтов и площади нарушенных земель
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text рациональное использование природных ресурсов 
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li повышение энергоэффективности производственных процессов и обеспечение ресурсосбережения 
+											li внедрение элементов циркулярной экономики, переработка отходов и использование перерабатываемых материалов
+											li применение систем оборотного и повторного водоснабжения и сокращение забора воды из естественных источников
+
+
+
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text улучшение системы управления воздействием на окружающую среду
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li обеспечение соблюдения действующих норм и предупреждение чрезвычайных ситуаций путем осуществления производственного экологического контроля и аудита
+											li внедрение современных информационных технологий, методов технической диагностики и дистанционного мониторинга
+											li комплексная оценка воздействия на окружающую среду при реализации инфраструктурных проектов
+											li  проведение дополнительной оценки рисков на особо охраняемых природных территориях, водно-болотных угодьях, где осуществляет деятельность Компания
+											li поддержание открытого диалога и осуществление регулярного взаимодействия с заинтересованными сторонами
+
+
+					
+block scripts
+	
+
+
+
+

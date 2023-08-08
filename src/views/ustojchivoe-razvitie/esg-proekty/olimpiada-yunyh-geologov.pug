@@ -1,0 +1,72 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Олимпиада юных геологов
+
+			h1.dmpage-h1 Олимпиада юных геологов
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/esg-proekty.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/esg-proekty.html") К началу раздела
+						a.dmpage-menu-item(href="proekty-ccus.html") Проекты CCUS
+						a.dmpage-menu-item(href="proekt-zelenyj-ofis.html") Проект «Зеленый офис»
+						a.dmpage-menu-item(href="zelenoe-zoloto-tatnefti.html") Зеленое золото Татнефти
+						a.dmpage-menu-item(href="ne-tolko-chistyj-vozduh.html") Не только чистый воздух
+						a.dmpage-menu-item(href="poslanniki-cur-tatnefti.html") Посланники ЦУР Татнефти
+						a.dmpage-menu-item(href="shkolnye-biolaboratorii.html") Школьные биолаборатории
+						a.dmpage-menu-item(href="v-poiskah-uglerodnogo-sleda.html") В поисках углеродного следа
+						a.dmpage-menu-item.dmpage-menu-item--active(href="olimpiada-yunyh-geologov.html") Олимпиада юных геологов
+						a.dmpage-menu-item(href="energoeffektivnoe-poselenie-aktyuba.html") Энергоэффективное поселение Актюба
+
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/olimpiada_1.jpeg", alt="")
+						p Впервые Республиканская полевая олимпиада юных геологов прошла в 2014 году по инициативе президента Татарстана и при поддержке Компании «Татнефть». Местом проведения первой и второй олимпиад стал детский оздоровительный лагерь «Заречье». Цель слета юных исследователей недр – привить интерес к геологии как к науке, помочь школьникам определиться с выбором вуза и профессии, а в долгосрочной перспективе – получить высококлассных специалистов-геологов. И олимпиада достигает своей цели – множество мальчишек и девчонок выбрали себе профессией эту науку, закончили геологические факультеты и успешно трудятся по специальности.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/olimpiada_2.jpeg", alt="")
+						p С 2016 года постоянным местом проведения олимпиады стал Альметьевский район. Ежегодно олимпиаду принимают детские оздоровительные лагеря «Татнефти», которая является соорганизатором и основным спонсором форума. 
+						p В оздоровительных лагерях Компании есть все для комфортного проживания ребят и педагогов. Кроме того, особенности ландшафта пригорода нефтяной столицы позволяют качественно выполнить все выездные задания.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/olimpiada_3.jpeg", alt="")
+						p Количество участников олимпиады растет год от года. В 2023 году на традиционный недельный форум приехало 33 команды, это около 300 старшеклассников. В основном это школьники из Татарстана, но участвуют и команды из России и ближнего зарубежья. Костяк татарстанских команд составляют ребята, занимающиеся в геологических кружках, открытых во многих городах и населенных пунктах республики. В кружках вместе с опытными педагогами занимаются порядка 400 детей. Потом талантливые ребята, увлечённые геологией, достойно представляют Татарстан на самых различных уровнях состязаний страны.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/olimpiada_4.jpeg", alt="")
+						p В насыщенной программе геологической олимпиады есть как аудиторные занятия, так и полевые исследования. Один из основных и самых сложных этапов – геологический маршрут. В него входят ведение маршрута, описание обнажения горных пород, отбор и упаковка образцов, определение полезных ископаемых. Кроме того, участники демонстрируют навыки и умения в таких конкурсных заданиях, как «Магнитометрия», «Радиометрия» «Гидрология», «Нефть и газ» и пр.
+						p Помимо непосредственно учебных и соревновательных дисциплин для детей подготовлены и другие занятия.
+						p Например, спортивные соревнования, творческие вечера, дискотеки, мастер-классы, встречи с интересными людьми. Олимпиада — это еще и общение. Именно такие мероприятия закладывают основу знаменитого геологического братства, взаимовыручки и общности интересов.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/olimpiada_5.jpeg", alt="")
+						p Движению юных геологов в Татарстане почти полвека. Оно началось в 50-х годах XX века после массовых геологических походов, манящих своей непередаваемой романтикой. 
+						p Первый всесоюзный слёт юных геологов состоялся в 1966 году в Златоусте, на территории Ильменского заповедника. В последующем такие слёты стали традиционными в Советском Союзе вплоть до эпохи лихих 90-х. Затем движение возродилось с новой силой. 
+						p В августе 2013 года столица Татарстана принимала участников IX Всероссийской открытой полевой олимпиады, собравшей 40 команд из России, Казахстана, Белоруссии и Таджикистана.
+						p В 2023 году Всероссийская открытая полевая олимпиада юных геологов снова пройдет на татарстанской земле – в Альметьевске.
+
+
+
+
+
+
+block scripts
+	
+
+
+
+

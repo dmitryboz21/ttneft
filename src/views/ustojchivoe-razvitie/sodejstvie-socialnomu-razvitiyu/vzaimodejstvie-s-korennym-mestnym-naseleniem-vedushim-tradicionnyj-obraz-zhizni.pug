@@ -1,0 +1,84 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Взаимодействие с коренным местным населением, ведущим традиционный образ жизни
+
+			h1.dmpage-h1 Взаимодействие с коренным местным населением, ведущим традиционный образ жизни
+
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-5.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/sodejstvie-socialnomu-razvitiyu.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/sodejstvie-socialnomu-razvitiyu.html") К началу раздела
+						a.dmpage-menu-item(href="podhod-k-upravleniyu.html") Подход к управлению
+						a.dmpage-menu-item(href="blagotvoritelnyj-fond.html") Благотворительный фонд
+						a.dmpage-menu-item(href="razvitie-socialnoj-infrastruktury.html") Развитие социальной инфраструктуры
+						a.dmpage-menu-item(href="investicii-v-novye-pokoleniya.html") Инвестиции в новые поколения
+						a.dmpage-menu-item(href="sohranenie-kulturnogo-naslediya.html") Сохранение культурного наследия
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.html") Взаимодействие с коренным местным населением, ведущим традиционный образ жизни
+						a.dmpage-menu-item(href="zdorovyj-obraz-zhizni.html") Здоровый образ жизни
+						a.dmpage-menu-item(href="podderzhka-iniciativ-razvitiya.html") Поддержка инициатив развития
+						a.dmpage-menu-item(href="chlenstvo-v-associaciyah.html") Членство в ассоциациях
+						
+			
+
+			
+			.dmpage-main
+				.dmpage-detail 
+					//	include ../../page-parts/b5/sodejstvie-socialnomu-razvitiyu.pug
+						include ../../page-parts/b5/podhod-k-upravleniyu.pug
+						include ../../page-parts/b5/blagotvoritelnyj-fond.pug
+						include ../../page-parts/b5/razvitie-socialnoj-infrastruktury.pug
+						include ../../page-parts/b5/investicii-v-novye-pokoleniya.pug
+						include ../../page-parts/b5/sohranenie-kulturnogo-naslediya.pug
+					//include ../../page-parts/b5/vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.pug
+					//	include ../../page-parts/b5/zdorovyj-obraz-zhizni.pug
+						include ../../page-parts/b5/podderzhka-iniciativ-razvitiya.pug
+						include ../../page-parts/b5/chlenstvo-v-associaciyah.pug
+					.dmpage-text
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/mestnoe_naselenie.jpg", alt="")
+						p Политика по взаимодействию с местным населением, ведущим традиционный образ жизни закреплена во внутренних документах Компании (в том числе в Кодексе корпоративной культуры и Коллективном договоре), включая ключевой принцип в этой области.
+						p Общество участвует в социально-экономическом развитии Ненецкого автономного округа в рамках реализации Соглашения о сотрудничестве с администрацией региона, в благотворительной деятельности, в традиционных ежегодных физкультурно-спортивных мероприятиях («Буран-Дей»). а также в экологических акциях в рамках федеральных проектов («Чистая Арктика»).
+						p ПАО «Татнефть», осуществляя бизнес-проекты в странах с различными политическими системами и культурными традициями, исходит из того, что каждый должен обладать всеми провозглашёнными правами и свободами без какого бы то ни было различия, независимо от расы, цвета кожи, пола, возраста, языка, религии, политических или иных убеждений, национального или социального происхождения, инвалидности, имущественного, сословного или иного положения, включая право на труд, право на благоприятную окружающую среду, права коренных малочисленных народов и особых групп населения.
+						p ПАО «Татнефть» придерживается и разделяет принципы, отражённые в фундаментальных международных декларациях и конвенциях:
+						ul 
+							li Всеобщая декларация прав человека Организации Объединенных Наций (далее – ООН);
+							li Руководящие принципы предпринимательской деятельности в аспекте прав человека, одобренные резолюцией Совета по правам человека ООН;
+							li Руководящие принципы ОЭСР для многонациональных предприятий;
+							li Принципы МОТ, касающиеся многонациональных корпораций и социальной политики.
+						p Взаимодействие с местным населением отражается в ежегодном Отчёте по устойчивому развитию и Годовых отчётах Компании.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/politika_po_vzaimodejstviju_s_mestnym_naseleniem.jpg", alt="")
+					.dmpage-accordions-wrap
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text Приложение 10:
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li
+												a( download href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_10/prilozhenie_10.1._politika_gruppy_tatneft_po_vzaimodejstviju_s_mestnym_naseleniem.docx") 10.1. Политика Группы Татнефть по взаимодействию с местным населением, ведущим традиционный образ жизни
+											li
+												a( download href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_10/prilozhenie_10.2._knopka_podrobnee.docx") 10.2. КНОПКА «ПОДРОБНЕЕ»
+
+

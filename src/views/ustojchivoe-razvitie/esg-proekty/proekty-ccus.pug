@@ -1,0 +1,101 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Проекты CCUS
+
+			h1.dmpage-h1 Проекты CCUS
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/esg-proekty.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/esg-proekty.html") К началу раздела
+						a.dmpage-menu-item.dmpage-menu-item--active(href="proekty-ccus.html") Проекты CCUS
+						a.dmpage-menu-item(href="proekt-zelenyj-ofis.html") Проект «Зеленый офис»
+						a.dmpage-menu-item(href="zelenoe-zoloto-tatnefti.html") Зеленое золото Татнефти
+						a.dmpage-menu-item(href="ne-tolko-chistyj-vozduh.html") Не только чистый воздух
+						a.dmpage-menu-item(href="poslanniki-cur-tatnefti.html") Посланники ЦУР Татнефти
+						a.dmpage-menu-item(href="shkolnye-biolaboratorii.html") Школьные биолаборатории
+						a.dmpage-menu-item(href="v-poiskah-uglerodnogo-sleda.html") В поисках углеродного следа
+						a.dmpage-menu-item(href="olimpiada-yunyh-geologov.html") Олимпиада юных геологов
+						a.dmpage-menu-item(href="energoeffektivnoe-poselenie-aktyuba.html") Энергоэффективное поселение Актюба
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						p Группа «Татнефть» реализовало ряд проектов и научных исследований в области улавливания, использования и захоронения СО2 (Carbon Capture, Utilization and Storage – CCUS).
+						p По направлению CCUS в Компании завершены 4 проекта, 1 НИОКР и 1 ГТУ, в реализации 5 проектов:
+						ul 
+							li Проведены исследования по улавливанию и подготовке СО2, образующегося на АО «ТАНЕКО» и ООО «Нижнекамской ТЭЦ», потенциал улавливания составил 6 млн тонн СО2-экв.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-1.jpeg", alt="")
+					.dmpage-text.dmpage-text--small АО «ТАНЕКО»
+					.dmpage-text
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-2.jpg", alt="")
+					.dmpage-text.dmpage-text--small ООО «Нижнекамская ТЭЦ»
+					.dmpage-text
+						ul 
+							li Проведено моделирование и подобран объект для создания хранилища диоксида углерода в живетском ярусе Тукаевского участка недр на глубине более 1 км. Потенциальный объем хранилища составляет 82 млн тонн СО2-экв.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-3.png", alt="")
+						ul 
+							li Научно-исследовательским институтом «ТатНИПИнефть» разработана технологическая схема закачки СО2 и проведена оценка затрат на захоронение.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-4.png", alt="")
+					.dmpage-text.dmpage-text--small Принципиальная схема реализации проекта закачки СО2
+					.dmpage-text
+						ul 
+							li Реализуется проект по применению СО2 с целью увеличения нефтеизвлечения. По результатам гидродинамического моделирования Биклянского месторождения, применение технологии предполагает ежегодное использование до 100 тыс. тонн СО2. Компанией разработан способ разработки нефтяного пласта с использованием СО2 на что получен патент с приоритетом ПАО «Татнефть». Данная технология разработки позволяет вовлечь до 15,2 млн тонн СО2-экв. за жизненный цикл проекта на месторождении.
+							img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-5.png", alt="")
+					.dmpage-text.dmpage-text--small Гидродинамическая модель Биклянского месторождения
+					.dmpage-text
+						ul 
+							li Проведено моделирование и подобран объект для создания хранилища диоксида углерода в живетском ярусе;
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/proekty_CCUS-6.png", alt="")
+					.dmpage-text.dmpage-text--small Динамика распространения СО2 в пласте
+					.dmpage-text
+						ul 
+							li
+								p Разработана технологическая схема закачки СО2 и проведена оценка затрат на захоронение;
+								p ПАО «Татнефть» получила лицензию в Федеральном агентстве по недропользованию РФ и положительное заключение ФГКУ «Росгеолэкспертизы» № 469-02-04/2022 от 28.12.2022 г.
+								p «Проектная документация на осуществление геологического изучения и оценки пригодности Тукаевского участка недр (Нижнекамский, Тукаевский, Заинский районы Республики Татарстан) для строительства и эксплуатации подземных сооружений, не связанных с добычей полезных ископаемых, с целью размещения в пластах горных пород диоксида углерода». Данный вид пользования недр позволит запланировать и провести на участке полевые работы по определению возможности размещения в пластах горных пород диоксида углерода.
+						p Компания прорабатывает:
+						ul 
+							li реализацию Программы исследовательских работ на разведочном этапе, согласно проекту изучению недр;
+							li защиту в Роснедра РФ проекта промышленной закачки парниковых газов.
+						p Компания уделяет внимание не только проектам захоронения углекислого газа, но и его полезного использования. Институт «ТатНИПИнефть» совместно с Сибирским отделением РАН, Институтом органической химии им. Н.Д. Зелинского, Казанским национальным исследовательским технологическим университетом разрабатывают технологии переработки углекислого газа с получением полезных продуктов. 
+						p Компания постоянно расширяет периметр сотрудничества и обмена опытом в части реализации проектов CCUS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+block scripts
+	
+
+
+
+

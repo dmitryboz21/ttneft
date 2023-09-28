@@ -1,0 +1,48 @@
+extends ../../layouts/default
+
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div The green gold of TATNEFT
+
+			h1.dmpage-h1 The green gold of TATNEFT
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/esg-proekty.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/esg-proekty.html") К началу раздела
+						a.dmpage-menu-item(href="proekty-ccus.html") Проекты CCUS
+						a.dmpage-menu-item(href="proekt-zelenyj-ofis.html") Проект «Зеленый офис»
+						a.dmpage-menu-item.dmpage-menu-item--active(href="zelenoe-zoloto-tatnefti.html") Зеленое золото Татнефти
+						a.dmpage-menu-item(href="ne-tolko-chistyj-vozduh.html") Не только чистый воздух
+						a.dmpage-menu-item(href="poslanniki-cur-tatnefti.html") Посланники ЦУР Татнефти
+						a.dmpage-menu-item(href="shkolnye-biolaboratorii.html") Школьные биолаборатории
+						a.dmpage-menu-item(href="v-poiskah-uglerodnogo-sleda.html") В поисках углеродного следа
+						a.dmpage-menu-item(href="olimpiada-yunyh-geologov.html") Олимпиада юных геологов
+						a.dmpage-menu-item(href="energoeffektivnoe-poselenie-aktyuba.html") Энергоэффективное поселение Актюба
+
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						p In 2019, TATNEFT joined the UN Global Compact. The Company supports all 17 Sustainable Development Goals (SDGs), and ten of them are named as priorities: “Good Health and Well-Being,” “Quality Education,” “Affordable and Clean Energy,” “Industry, Innovation, and Infrastructure,” “Sustainable Cities and Communities,” “Partnerships for the Goals,” “Climate Action,” “Clean Water and Sanitation,” “Life on Land,” “Responsible Consumption and Production.” 
+						p TATNEFT has announced the goal of becoming completely carbon-neutral by 2050. The carbon intensity index should decrease from the baseline by 14% by 2025 and by 30% by 2030.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/zelenoe_zoloto_1.jpeg", alt="")

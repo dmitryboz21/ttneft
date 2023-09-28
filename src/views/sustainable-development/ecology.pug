@@ -1,0 +1,119 @@
+extends ../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Ecology
+
+			h1.dmpage-h1 Ecology
+
+		.dmpage
+			include ../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie.html") К началу раздела
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/ekologicheskij-menedzhment.html") Экологический менеджмент 
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html") Борьба с изменением климата
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/ohrana-atmosfernogo-vozduha.html") Охрана атмосферного воздуха
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/monitoring-atmosfernogo-vozduha.html") Мониторинг атмосферного воздуха
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/vodozabor-i-vodopotreblenie.html") Водозабор и водопотребление
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/dostizhenie-celej-cur.html") Достижение целей ЦУР
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/gidromonitoring.html") Гидромониторинг
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/obrashenie-s-othodami.html") Обращение с отходами
+						a.dmpage-menu-item(href="/ustojchivoe-razvitie/ekologiya/sohranenie-bioraznoobraziya.html") Сохранение биоразнообразия
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p The Company adheres to the principles of the UN Global Compact and evaluates the impact of planned and ongoing activities on the environment when making management and investment decisions, along with other significant factors, as well as in solving environmental problems, industrial safety and labor protection issues. 
+						p In carrying out its activities, the Company gives priority to the measures aimed at preventing possible negative impact on the environment. Identification of hazards, assessment and management of risks in the field of environmental protection, climate risks are carried out at all stages of the production life cycle, starting with pre-design surveys. 
+						p The approved “Development Strategy in the Field of Health, Safety and Environment of the TATNEFT Group Until 2030” defines the Company’s goals and responsibilities in the field of climate aspects and greenhouse gas emissions. The Company uses advanced scientific achievements and innovative technical solutions, systems and processes in its production activities, taking into account world experience and the best available technologies in order to prevent climate change, as well as reduce the negative impact on the environment.
+
+
+					.dmpage-quote
+						a.dmpage-quote__link(download href="https://www.tatneft.ru/uploads/publications/63be9dd47a271151714268.pdf")
+
+						|  HSE Policy
+
+					//.dmpage-quote
+						a.dmpage-quote__link(target="_blank" href="https://www.tatneft.ru/sustainable_development/industrial_safety")
+
+						|  Внутренним документом, отражающим позицию и подходы Компании в области воздействия на окружающую среду и климат, является «Политика ПАО «Татнефть» им. В.Д. Шашина в области промышленной безопасности, охраны труда и окружающей среды с учетом изменения климата».
+					.dmpage-accordions-wrap
+						h3.dmpage-accordions-title SDG PRIORITIES
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text minimizing the impact on climate change
+
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li reduction of GHG emissions and carbon footprint
+											li use of green alternative energy sources
+											li maximizing the associated petroleum gas utilization 
+											li control of environmental impact in the supply chain and measures to minimize such impact
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text favorable environment and living conditions
+
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li avoidance of environmental damage from economic activities
+											li reduction of losses of raw materials and products at all stages of production activities and prevention of their release into the environment
+											li applying of the best available technologies, equipment, digital process control solutions
+											li Prevention of emergencies and taking all possible measures to minimize their consequences
+											li Prevention of negative impact on natural features
+
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text preservation of natural ecological systems and biodiversity
+
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li minimization of work in specially protected natural areas and their protected zones
+											li restoration of biodiversity, habitats, animal migration routes and compensation for possible environmental damage
+											li reducing fragmentation of natural landscapes and the disturbed land areas
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text rational use of natural resources 
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li improvement of the energy efficiency of production processes and ensuring of resource conservation
+											li implementation of elements of circular economy, recycling and use of recyclable materials
+											li application of recycling and reusing water supply systems and reduction of water withdrawal from natural sources
+
+							.dmpage-accordion.js-dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text improvement of the environmental impact management system
+
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li ensuring of compliance with applicable regulations and prevention of emergencies by implementing industrial environmental control and audits
+											li implementation of state-of-the-art information technologies, technical diagnostics and remote monitoring methods
+											li comprehensive environmental impact assessment in the implementation of infrastructure projects
+											li carrying out supplementary risk assessments in specially protected natural areas and wetlands in which the Company operates
+											li maintaining an open dialogue and regular engagement with stakeholders

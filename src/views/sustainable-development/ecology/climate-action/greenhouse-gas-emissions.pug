@@ -1,0 +1,388 @@
+extends ../../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Greenhouse gas emissions
+
+			h1.dmpage-h1 Greenhouse gas emissions
+
+		.dmpage
+			include ../../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/ekologiya/borba-s-izmeneniem-klimata.html") К началу раздела
+						a.dmpage-menu-item(href="strategiya-dekarbonizacii.html") Стратегия декарбонизации
+						a.dmpage-menu-item(href="risk-menedzhment.html") Риск-менеджмент
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vybrosy-parnikovyh-gazov.html") Выбросы парниковых газов
+						a.dmpage-menu-item(href="resursoeffektivnost.html") Ресурсоэффективность
+						a.dmpage-menu-item(href="vzaimodejstvie-po-voprosam-klimaticheskoj-povestki.html") Взаимодействие по вопросам климатической повестки
+						
+
+
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p The most important element of the climate risk management system is the assessment of greenhouse gas emissions. At the corporate level, the Company's strategic goals for reducing greenhouse gas emissions have been approved. Control and accounting of greenhouse gas emissions are regulated by the internal standard "Greenhouse Gas Emissions Management".
+
+						p The system of accounting and reporting on greenhouse gas emissions in the TATNEFT Group complies with the standards and recommendations of the Greenhouse Gas Protocol (GHG Protocol), ISO 14064 and aims to ensure disclosure of information regarding climatic aspects in accordance with the recommendations of the Task Force On Climate-Related Financial Disclosures (TCFD). The Company keeps records of greenhouse gases generated during production activities:
+						ul
+							li 
+								b carbon dioxide (CO2)
+								| , formed during the combustion of fuel at stationary combustion source (boiler units, furnaces and other heat engineering equipment), as a result of the combustion of gas at flare units, from industrial processes related to the processing of oil at oil refineries, as well as when using fuel by vehicles
+							li 
+								b methane (CH4)
+								| , emitted as a result of gas combustion at flare units, during the operation of treatment facilities, from leaks of technological equipment, as a result of the removal of process gases into the atmosphere through candles (diversion, dispersion, bleaching) without combustion or catalytic oxidation
+
+						p Of the total mass of direct emissions, 95.4% is carbon dioxide and 4.6% is methane (according to Appendix No. 3 of the Guidelines, approved by Order of the Ministry of Natural Resources of the Russian Federation No. 300 dated 30.06.2015, for the conversion of methane (CH4) into tonnes of CO2 -eq. the global warming potential (GWPi) equal to 25 is used). There are no other greenhouse gases in the direct emissions of the TATNEFT Group enterprises (according to the classification established by Decree of the Government of the Russian Federation No. 2979-r dated 22.10.2021). When calculating indirect emissions, carbon dioxide emissions are taken into account.
+
+						p 
+							b According to the recommendations of the GHG Protocol Corporate Standard, 2021 (the year of inclusion of the climate section in the Company's Development Strategy) was chosen as the base year for consistent comparison of emissions over time. 
+
+
+
+						p Due to the change in the perimeter of the TATNEFT Group in 2022, greenhouse gas emissions were recalculated in order to compare correctly the dynamics of emissions for the TATNEFT Group. 
+						p Changes in the perimeter of greenhouse gas emissions accounting: — withdrawal of tire business enterprises from the TATNEFT Group and merger of the service unit enterprises.
+
+
+					.dmpage-table-section.dmpage-table-section--small 
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th
+											p Greenhouse gas emissions (Scope 1, Scope 2), mln tonnes CO2-eq.
+										th
+											p 2020
+										th
+											p 2021
+										th
+											p 2022
+								tbody
+									tr.dmpage-table__tr--with-border
+										td
+											p 
+												b Scope 1, including:
+										td
+											p 
+												b 6,84
+										td
+											p 
+												b 7,61  
+										td
+											p 
+												b 8,31 
+									tr
+										td
+											p Exploration and production
+										td
+											p 2,26
+										td
+											p 2,19
+										td
+											p 2,11
+									tr
+										td
+											p Oil and gas processing*
+										td
+											p 2,17
+										td
+											p 2,64
+										td
+											p 3,38
+									tr
+										td
+											p Petrochemicals**
+										td
+											p 0,41
+										td
+											p 0,30
+										td
+											p 0,28
+									tr
+										td
+											p Power generation
+										td
+											p 1,94
+										td
+											p 2,30
+										td
+											p 2,36
+									tr
+										td
+											p Composite materials
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Retail business
+										td
+											p 0,01
+										td
+											p 0,01
+										td
+											p 0,01
+									tr
+										td
+											p Machine engineering***
+										td
+											p 0,02
+										td
+											p 0,005
+										td
+											p 0,003
+									tr
+										td
+											p Other enterprises of the Group****
+										td
+											p 0,0306
+										td
+											p 0,1506
+										td
+											p 0,1505
+									tr.dmpage-table__tr--with-border
+										td 
+										td 
+										td 
+										td 
+									tr.dmpage-table__tr--with-border
+										td
+											p
+												b Scope 2, including:
+										td
+											p
+												b 4,12
+										td
+											p
+												b 4,85
+										td
+											p
+												b 5,25
+									tr
+										td
+											p Exploration and production
+										td
+											p 1,99
+										td
+											p 2,55
+										td
+											p 2,92
+									tr
+										td
+											p Oil and gas processing
+										td
+											p 0,92
+										td
+											p 1,01
+										td
+											p 1,18
+									tr
+										td
+											p Power generation
+										td
+											p 0,004
+										td
+											p 0,008
+										td
+											p 0,007
+									tr
+										td
+											p Petrochemicals
+										td
+											p 0,96
+										td
+											p 1,02
+										td
+											p 0,87
+									tr
+										td
+											p Composite materials
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Retail business
+										td
+											p 0,05
+										td
+											p 0,05
+										td
+											p 0,06
+									tr
+										td
+											p Machine engineering***
+										td
+											p 0,02
+										td
+											p 0,02
+										td
+											p 0,02
+									tr
+										td
+											p Other enterprises of the Group****
+										td
+											p 0,16
+										td
+											p 0,16
+										td
+											p 0,16 
+
+					.dmpage-text
+						p The sum of indicators in some lines may not match the total due to rounding. 
+					.dmpage-text.dmpage-text--small
+						p * Updated data for 2021.
+						p ** Updated data for 2020-2021.
+						p *** Due to the exclusion of Plant BUMMASH, LLC from the TATNEFT Group in 2022, the data was recalculated to the base year.
+						p **** The data was recalculated to the base year.
+
+					.dmpage-text
+						h3 GREENHOUSE GAS EMISSIONS (SCOPE 1), T CO<SUP>2</SUP>-EQ.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image99.jpg", alt="")
+						p The Company uses technologies to reduce the use of electricity and heat through the use of pellet boilers. In accordance with the Guidelines for Quantifying Emissions when Assessing Greenhouse Gas Emissions from the use of biomass, these data are not combined with other greenhouse gas emissions. 
+						h3 GREENHOUSE GAS EMISSIONS (SCOPE 3), MILLION T CO<SUP>2</SUP>-EQ.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image94.jpg", alt="")
+
+						.dmpage-table-section.dmpage-table-section--small
+							.dmpage-table-overflow
+								table.dmpage-table
+									colgroup.dmptable-colgroup-1
+										col.dmptable-col-1.dmptable-col-1--aw
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other(span=3)
+									thead
+										tr
+											th
+												p GHG Emissions (Scope 3), million tonnes of CO2-eq.
+
+											th
+												p 2020
+											th
+												p 2021*
+											th
+												p 2022
+						
+									tbody
+										
+										tr
+											td
+												p Business trips**
+											td
+												p 0,0004 
+											td
+												p 0,001 
+											td
+												p 0,001
+										tr
+											td
+												p Natural gas production and transportation***
+											td
+												p 0,71 
+											td
+												p 0,82
+											td
+												p 0,76
+										tr
+											td
+												p Processing and use of products sold****
+
+											td
+												p 100,81 
+											td
+												p 110,85 
+											td
+												p 103,47
+										tr
+											td
+												p Total:
+											td
+												p 101,52 
+											td
+												p 111,68 
+											td
+												p 104,24
+
+					.dmpage-text.dmpage-text--small
+						p *GHG emissions have been recalculated to the base year due to changes in the accounting perimeter.
+						p ** GHG emissions during air travel are calculated using the ICAO calculator.
+						p *** GHG emissions from consumed natural gas are calculated based on data on specific emissions of natural gas production, transportation and processing by Gazprom PJSC.
+						p **** GHG emissions during the processing and use of sold products are calculated based on the coefficients of the Guidelines approved by Order of the Ministry of Natural Resources of the Russian Federation No. 300 dated 30.06.2015.
+
+					.dmpage-text
+						p 
+							b In 2022, Scope 3 perimeter of accounting for indirect greenhouse gas emissions included greenhouse gas emissions from employee air travel
+						
+						h3 APPLIED TECHNIQUES
+						p 1. Direct greenhouse gas emissions (Scope 1) are calculated in accordance with the requirements of the following regulatory documents: 
+						ul
+							li Order of the Ministry of Natural Resources of Russia No. 300 “On Approval of Guidelines for the Quantitative Determination of Greenhouse Gas Emissions by Organizations Carrying out Economic and Other Activities in the Russian Federation” dated 30.06.2015; 
+							li The Greenhouse Gas Protocol (A Corporate Accounting and Reporting Standard). 
+
+						p 2. Indirect greenhouse gas emissions (Scope 2, 3) were calculated in accordance with the requirements of the following regulatory documents: 
+						ul
+							li Order of the Ministry of Natural Resources of the Russian Federation No. 330 dated 29.06.2017 "On Approval of Guidelines for Quantitative Determination of Indirect Energy Emissions of Greenhouse Gases";
+							li The Greenhouse Gas Protocol (A Corporate Accounting and Reporting Standard);
+							li Corporate Value Chain (Scope 3) Accounting and Reporting Standard.
+						p For Scope 2 calculations, the coefficient of energy emissions provided by Nizhnekamsk CHP, LLC was used.
+
+						h2 GREENHOUSE GAS EMISSION INTENSITY 
+						h3 GREENHOUSE GAS EMISSION INTENSITY (SCOPE 1)
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image65.jpg", alt="")
+						p The reduction in the intensity of direct greenhouse gas emissions during oil production was 8%. The reduction was achieved through measures to increase the level of APG utilization and optimize the operation of furnaces.
+						p The increase in specific emissions during oil refining is associated with ensuring a high depth of oil refining - 99% (the average in Russia is 83.5%).
+						h3 EMISSION INTENSITY (Scope 1 + Scope 2)
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image63.jpg", alt="")
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image66.jpg", alt="")
+					.dmpage-text.dmpage-text--small
+						p * Updated data for 2021.
+						p ** Updated data for 2020-2021.
+						p *** The calculation includes emissions from JSC TANECO and Tatneftegazpererabotka Division of PJSC TATNEFT.
+
+	
+					.dmpage-accordions-wrap
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text  Appendix
+									
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li
+												a(href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_6/prilozhenie_6.1._zakljuchenie_o_verifikacii_istochnikov_vybrosov_parnikovyh_gazov.pdf" download) Report on inventory of greenhouse gas emission sources for the TATNEFT Group for 2022
+											li
+												a(href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_6/prilozhenie_6.2._zakljuchenie_verifikacionnogo_audita_tatneft_2022.pdf" download) FAC Verification Audit Report

@@ -1,0 +1,541 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Remuneration
+
+			h1.dmpage-h1 Remuneration
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-3.jpg", alt="")
+			
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/personal.html")  To the beginning of the section
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Select a subsection
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/sustainable-development/staff.html") To the beginning of the section
+						a.dmpage-menu-item(href="/sustainable-development/staff/management-system.html") Management system
+						a.dmpage-menu-item(href="/sustainable-development/staff/structure.html") Structure
+						a.dmpage-menu-item.dmpage-menu-item--active(href="/sustainable-development/staff/remuneration.html") Remuneration
+						a.dmpage-menu-item(href="/sustainable-development/staff/education-and-development.html") Education and development
+						a.dmpage-menu-item(href="/sustainable-development/staff/youth-development.html") Youth development
+						a.dmpage-menu-item(href="/sustainable-development/staff/collective-representation.html") Collective representation
+						a.dmpage-menu-item(href="/sustainable-development/staff/social-security.html") Social security
+						a.dmpage-menu-item(href="/sustainable-development/staff/employee-pool.html") Employee pool
+
+
+			
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p Remuneration is a key part of the personnel incentive system, which allows the Company to remain highly competitive by attracting and retaining qualified and motivated employees. 
+						p The Company’s policy in the field of remuneration and motivation of personnel is based on the following approaches: competitiveness, fairness, targeting, efficiency, unification, focus on results.
+						p Any decision to increase the wages of the Company’s employees is based on the following indicators: the level of the corporate budget of an employee of the Company, the consumer price index (the level of inflation), the minimum consumer budget in the region, the level of wages in other companies in the industry, and the increase in labor productivity of the Company. 
+						p The personnel basic income is formed from wages and employment benefits. Wages include a tariff-based (fixed) part, according to the Unified Rate Schedule, and bonus based (variable) part. The employment benefits provide employees with a relevant scope of medical and other social guarantees.
+						
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w  Calculation of revenue per employee
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span="2")
+									
+								thead
+									tr
+										th(rowspan='2')
+											p  
+										th(rowspan='2')
+											p 2020
+										th(rowspan='2')
+											p 2021
+										th(rowspan='2')
+											p 2022
+										th(colspan='2')
+											p 2022/2021
+									tr
+										th(style="display:none;")
+										th(style="display:none;")
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p +/-
+										th
+											p %
+						
+							
+								tbody
+									tr
+										td
+											p Average headcount, persons
+										td
+											p 49 416
+										td
+											p 51 528
+										td
+											p 61 869
+										td
+											p 10 342
+										td
+											p 120
+									tr
+										td
+											p Net revenue with intra-group turnover, RUB million.
+										td
+											p 973 529
+										td
+											p 1 293 519
+										td
+											p 1 574 211
+										td
+											p 280 692
+										td
+											p 122
+									tr
+										td
+											p Revenue per employee, RUB thousand/persons.
+										td
+											p 19 701
+										td
+											p 25 103
+										td
+											p 25 444
+										td
+											p 341
+										td
+											p 101 
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Payroll fund, RUB mln.
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 46 011
+									tr
+										td
+											p 2021
+										td
+											p 52 587
+									tr
+										td
+											p 2022
+										td
+											p 57 871
+
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w  Average monthly salary, RUB
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span="3")
+									
+								thead
+									tr
+										th(rowspan='2')  
+										th(rowspan='2')
+											p Average monthly salary in the region of activity
+
+										th(colspan='3')
+											p Average monthly salary of the Company’s employees
+									tr
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p Total 
+										th
+											p men
+										th
+											p women
+								
+								tbody
+									
+									tr
+										td
+											p 2020
+										td
+											p 45 179,30
+										td
+											p 64 020,14
+										td
+											p 75 626,65
+										td
+											p 52 670,64
+									tr
+										td
+											p 2021
+										td
+											p 51 070,00
+										td
+											p 72 318,13
+										td
+											p 80 744,18
+										td
+											p 57 467,97
+									tr
+										td
+											p 2022
+										td
+											p 59 110,50
+										td
+											p 82 844,60
+										td
+											p 94 134,09
+										td
+											p 65 517,63
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Ratio of the average monthly salary of the company to the average monthly salary in the region of activity 
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th
+										th
+											p men
+										th
+											p women
+						
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 1,67
+										td
+											p 1,17
+									tr
+										td
+											p 2021
+										td
+											p 1,58
+										td
+											p 1,13
+									tr
+										td
+											p 2022
+										td
+											p 1,59
+										td
+											p 1,11
+
+
+						
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w  Average monthly salary of employees broken down by category and gender, RUB.
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								thead
+									tr
+										th  
+										th
+											p MSO* total
+										th
+											p men
+										th
+											p women
+										th
+											p workers total
+										th
+											p men
+										th
+											p women
+								
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 98&nbsp;487,77
+										td
+											p 123&nbsp;293,25
+										td
+											p 71&nbsp;243,01
+										td
+											p 43&nbsp;596,02
+										td
+											p 46&nbsp;470,25
+										td
+											p 38&nbsp;952,32
+									tr
+										td
+											p 2021
+										td
+											p 102&nbsp;590,01
+										td
+											p 125&nbsp;976,71
+										td
+											p 75&nbsp;763,06
+										td
+											p 51&nbsp;643,51
+										td
+											p 56&nbsp;510,23
+										td
+											p 43&nbsp;936,90
+									tr
+										td
+											p 2022
+										td
+											p 115 682,75
+										td
+											p 140 730,32
+										td
+											p 86 270,66
+										td
+											p 63 409,35
+										td
+											p 69 564,16
+										td
+											p 51 140,32
+
+					.dmpage-text.dmpage-text--small
+						p * MSO — managers, specialists, officers
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Ratio of the average monthly salary of women to men
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead
+									tr
+										th  
+										th
+											p Total 
+										th
+											p MSO
+										th
+											p workers
+									tr
+										th
+											p Unit of measure.
+										th
+											p coefficient.
+										th
+											p coefficient.
+										th
+											p coefficient.
+									
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 0,70
+										td
+											p 0,58
+										td
+											p 0,84
+									tr
+										td
+											p 2021
+										td
+											p 0,71
+										td
+											p 0,60
+										td
+											p 0,78
+									tr
+										td
+											p 2022
+										td
+											p 0,70
+										td
+											p 0,61
+										td
+											p 0,74 
+
+
+						
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w  Minimum average monthly salary*, RUB.
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span=3)
+								thead
+									tr
+										th(rowspan='2')  
+										th(rowspan='2')
+											p Minimum Monthly Wage (MMW) 
+
+										th(colspan='3')
+											p Minimum average monthly salary of the Company’s employees
+
+									tr
+									
+										th(style="display:none;")
+										th(style="display:none;")
+										th
+											p Total 
+										th
+											p men
+										th
+											p women
+								
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 14 000
+										td
+											p 15 634
+										td
+											p 15 634
+										td
+											p 15 634
+									tr
+										td
+											p 2021
+										td
+											p 15 400
+										td
+											p 16 572
+										td
+											p 16 572
+										td
+											p 16 572
+									tr
+										td
+											p 2022**
+										td
+											p 16 700
+										td
+											p 30 256
+										td
+											p 30 256
+										td
+											p 30 256 
+
+					.dmpage-text.dmpage-text--small
+						p * - with full working out of the norms of time and performance of labor duties
+						p ** - minimum wage rate for Category 1 workers has been increased
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Ratio of the minimum monthly wage guaranteed by the company to MMW 
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								thead
+									tr
+										th  
+										th
+											p men
+										th
+											p women
+							
+							
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 1,12
+										td
+											p 1,12
+									tr
+										td
+											p 2021
+										td
+											p 1,08
+										td
+											p 1,08
+									tr
+										td
+											p 2022
+										td
+											p 1,81
+										td
+											p 1,81 
+
+
+

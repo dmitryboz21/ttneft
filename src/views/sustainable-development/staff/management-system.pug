@@ -1,0 +1,102 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Management system
+
+			h1.dmpage-h1 Management system
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-3.jpg", alt="")
+			
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/personal.html")  To the beginning of the section
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Select a subsection
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/sustainable-development/staff.html") To the beginning of the section
+						a.dmpage-menu-item.dmpage-menu-item--active(href="/sustainable-development/staff/management-system.html") Management system
+						a.dmpage-menu-item(href="/sustainable-development/staff/structure.html") Structure
+						a.dmpage-menu-item(href="/sustainable-development/staff/remuneration.html") Remuneration
+						a.dmpage-menu-item(href="/sustainable-development/staff/education-and-development.html") Education and development
+						a.dmpage-menu-item(href="/sustainable-development/staff/youth-development.html") Youth development
+						a.dmpage-menu-item(href="/sustainable-development/staff/collective-representation.html") Collective representation
+						a.dmpage-menu-item(href="/sustainable-development/staff/social-security.html") Social security
+						a.dmpage-menu-item(href="/sustainable-development/staff/employee-pool.html") Employee pool
+
+
+			
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						p The principles of the Company in personnel management are based on maintaining a working environment without restrictions on national, gender, age, religious and other grounds. 
+						p Taking care of the population living in the region of presence is one of the priority tasks. The Company strives to develop an inclusive environment for people with disabilities in the workplace and in the infrastructure of cities and towns. In matters of personnel management, the Company follows the norms of Russian and international law and does not use forced, compulsory or child labor. Child labor is never and under no circumstances used by the TATNEFT Group.
+						p The Company assesses its activities in the field of human rights in the course of regular assessment of corporate practices, including in the form of management self-assessment. The Company pursues an honest, fair and open policy towards its employees. 
+						p The opportunity for professional and career growth is provided to all employees and career growth depends primarily on the level of development of competencies and personal performance indicators. 
+						p The Company strives to create an effective system of financial and non-financial remuneration of employees, which allows assessing objectively the contribution of each employee, to attract the most qualified employees, to stimulate the development and professional growth of employees.
+						p 
+							b The personnel management system is regulated by the following documents: 
+						ul 
+							li Human Resources Policy
+							li Comprehensive assessment standard for personnel of the TATNEFT Group
+							li Standard for training and development of personnel of the TATNEFT Group
+							li Personnel Adaptation Standard
+							li Personnel Certification Standard of PJSC TATNEFT
+							li Standard of work with the personnel reserve in PJSC TATNEFT
+							li Regulations on the management of the basic remuneration of employees of PJSC TATNEFT
+							li Collective agreement of PJSC TATNEFT
+						p This year, the Board of Directors approved the updated Personnel Management Strategy of the TATNEFT Group until 2025, which includes current trends and challenges, targets and strategic priorities. 
+
+						p 
+							b The strategy provides for: 
+						ul 
+							li implementing the activities and projects aimed at improving the efficiency of staff recruitment, hiring and development processes; 
+							li strengthening compensation programs, benefits and guarantees; 
+							li increasing the staff satisfaction and engagement; 
+							li managing the competencies of employees taking into account technological changes and new challenges
+						p The strategy roadmap covers 20 projects and initiatives (indicators) with the set target values. 
+						p The main goal of the strategy is to meet the needs of the business, maintaining a balance between achieving production indicators and preserving human capital. 
+						p The most important link in the Company’s HR strategy is the educational cluster, which includes schools, vocational schools, universities and research centers.
+
+						h2 Responsible employment
+
+						p The Company implements a risk-oriented personnel management policy. At all stages of interaction between the employer and the employee, the leveling of risks associated with the search and selection, hiring, appointment to senior positions, and staff training is governed by local regulations. 
+						p In order to ensure the continuity of production due to the possible risk of a shortage of qualified personnel, network schedules are formed monthly for hiring personnel for existing or planned vacancies, especially for large-scale projects. 
+						p Network schedules are updated taking into account changes in the labor market, geopolitical conditions and other factors. At the stage of recruitment and hiring in the Company, each candidate undergoes an assessment covering several criteria: ‒ assessment of the candidate's qualification compliance with the requirements for the position, ‒ assessment of professional knowledge, skills and abilities, ‒ verification of the candidate's trustworthiness.
+						p The appointment of candidates for vacant managerial positions additionally includes a professional and psychological assessment of the candidate.
+						h2 Employee loyalty and satisfaction index
+
+						p The study of staff satisfaction is one of the most effective tools for identifying the values and preferences of employees, the risks of social tension, conflicts in labor collectives. 
+						p The priority goal of the study is the ability of employees to assess most honestly various aspects of everyday life, such as the organization of the current activities of the enterprise, the level of wages, career opportunities, the climate in the workforce, relationships with management, and others.
+						
+					.dmpage-chart-outer.dmpage-small-w-section
+						//.dmpage-chart-bar-wrap
+							#chart-bubbles-en-23-1.dmpage-chart-bubbles.js-dmpage-chart-bubbles
+								canvas
+								
+						.dmpage-chart-flex
+							#chart-bubbles-en-23-1.dmpage-chart-bubbles.js-dmpage-chart-bubbles
+								canvas
+							//.dmpage-chd-legend
+					.dmpage-text.dmpage-text--small
+						p The indicator characterizes the internal state of an employee who is ready to take the initiative and make significant efforts to achieve high results, satisfied with various aspects of work, involved in the life of the enterprise and sharing its values. 
+						p ** The indicator characterizes the net loyalty of employees and allows assessing their satisfaction with the company they work for. The index shows whether employees are satisfied with their work at the enterprise and whether they are set up for joint development or are disappointed with cooperation and are ready to move to another employer as soon as a more profitable offer appears on the market.
+block scripts
+
+
+
+

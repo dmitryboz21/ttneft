@@ -1,0 +1,155 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Man-made incidents 
+
+			h1.dmpage-h1 Man-made incidents 
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-4.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/bezopasnost-proizvodstva.html")  To the beginning of the section
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Select a subsection
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/sustainable-development/production-safety.html") To the beginning of the section
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/management-system.html.html") Management system
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/occupational-health-and-safety.html") Occupational health and safety
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/workplace-safety.html") Workplace safety
+						a.dmpage-menu-item.dmpage-menu-item--active(href="/sustainable-development/production-safety/man-made-incidents.html") Man made incidents
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/industrial-injuries.html") Industrial injuries
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/emergency-prevention-and-elimination-system.html") Emergency prevention and elimination system
+
+
+
+
+
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p In 2022, 1 accident was registered in NGDU Bavlyneft of Tatneft-Production Business Unit. During the gas-hazardous work, there was a fire of a gas-liquid mixture, as a result of which two workers received burns. A technical investigation of the incident causes was carried out, measures were taken to eliminate the consequences of the incident, and to prevent such cases. 
+						p The circumstances and causes of the incident were brought to the Company’s employees through the Industrial Safety and Labor Protection Control corporate information system.
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Dynamics of accidents
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 1*
+									tr
+										td
+											p 2021
+										td
+											p 0
+									tr
+										td
+											p 2022
+										td
+											p 1
+					//.dmpage-text.dmpage-text--small * Ростехнадзор классифицировал данное происшествие, как «авария», Компания считает «инцидентом».
+					.dmpage-table-section
+						h3.dmpage-table-title Dynamics of fires
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other(span="5")
+								thead
+									tr
+										th(rowspan='2')
+											p Year
+										th(rowspan='2')
+											p Total 
+										th(colspan='5')
+											p including by business areas
+									tr
+										th(style="display:none;")
+										th
+											p Exploration and production
+										th
+											p Oil and gas processing
+										th
+											p Power generation
+										th
+											p Petrochemicals
+										th
+											p Other business areas 
+								tbody
+									tr
+										td
+											p 2020
+										td
+											p 3
+										td
+											p 0
+										td
+											p 1
+										td
+											p 0
+										td
+											p 0
+										td
+											p 2
+									tr
+										td
+											p 2021
+										td
+											p 2
+										td
+											p 0
+										td
+											p 1
+										td
+											p 0
+										td
+											p 0
+										td
+											p 1
+									tr
+										td
+											p 2022
+										td
+											p 4
+										td
+											p 1
+										td
+											p 0
+										td
+											p 1
+										td
+											p 0
+										td
+											p 2

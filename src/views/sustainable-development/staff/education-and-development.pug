@@ -1,0 +1,242 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Education and development 
+
+			h1.dmpage-h1 Education and development 
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-3.jpg", alt="")
+			
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/personal.html")  To the beginning of the section
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Select a subsection
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/sustainable-development/staff.html") To the beginning of the section
+						a.dmpage-menu-item(href="/sustainable-development/staff/management-system.html") Management system
+						a.dmpage-menu-item(href="/sustainable-development/staff/structure.html") Structure
+						a.dmpage-menu-item(href="/sustainable-development/staff/remuneration.html") Remuneration
+						a.dmpage-menu-item.dmpage-menu-item--active(href="/sustainable-development/staff/education-and-development.html") Education and development
+						a.dmpage-menu-item(href="/sustainable-development/staff/youth-development.html") Youth development
+						a.dmpage-menu-item(href="/sustainable-development/staff/collective-representation.html") Collective representation
+						a.dmpage-menu-item(href="/sustainable-development/staff/social-security.html") Social security
+						a.dmpage-menu-item(href="/sustainable-development/staff/employee-pool.html") Employee pool
+
+
+			
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p An efficient system of formation and maintenance of the required level of personnel qualification provides the Company with long-term employee loyalty.
+						p The main objectives of the Company’s personnel training system are to create conditions that allow employees to achieve their maximum potential in their work and ensure continuous improvement of their professional and managerial competencies.
+						p The process of personnel training in the Company is based on the needs of business and includes the following areas of development: 
+						ul 
+							li basic training in the main working professions 
+							li compulsory training 
+							li professional retraining
+							li development of professional skills 
+							li development of general corporate and managerial competencies  
+						p The Company complies with the requirements of the legislation of the Russian Federation, including in the field of compulsory types of training. 
+						p In order to form a unified approach to the implementation of mandatory state requirements for the level of personnel training, a project is implemented to develop a List of Compulsory Training Programs for the Company’s employees. The personnel training system is improved, including work with educational institutions of vocational education, the Personnel Training Center, and the Corporate University. 
+						p The Company participates in the formation of professional standards, is the initiator of the opening of the Regional Oil and Gas Complex Qualification Assessment Center. New methods for assessing the competencies of employees are introduced with the integration of the assessment results into the further development of each specialist and manager.
+						
+
+					.dmpage-table-section
+						h3.dmpage-table-title  The average annual number of hours of training per trained employee, broken down by category and by gender
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span="3") 
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span="3")
+								colgroup.dmptable-colgroup-other
+									col.dmptable-col-other(span="3")
+									
+								thead
+									tr
+										th(rowspan='2')
+											p Category of employees
+										th(colspan='3')
+											p 2020
+										th(colspan='3')
+											p 2021
+										th(colspan='3')
+											p 2022
+									tr
+										th(style="display:none;")
+										th
+											p TOTAL
+										th
+											p Incl. men
+										th
+											p Incl. women
+										th
+											p ВСЕГО
+										th
+											p Incl. men
+										th
+											p Incl. women
+										th
+											p ВСЕГО
+										th
+											p Incl. men
+										th
+											p Incl. women
+							
+								tbody
+									tr
+										td
+											p Managers
+										td
+											p 62,62
+										td
+											p 62,62
+										td
+											p 62,58
+										td
+											p 49,70
+										td
+											p 49,95
+										td
+											p 47,67
+										td
+											p 47,95
+										td
+											p 48,20
+										td
+											p 45,99
+									tr
+										td
+											p Specialists
+										td
+											p 58,78
+										td
+											p 51,71
+										td
+											p 73,94
+										td
+											p 77,06
+										td
+											p 75,20
+										td
+											p 80,50
+										td
+											p 65,19
+										td
+											p 68,93
+										td
+											p 6,13
+
+									tr
+										td
+											p Officers
+										td
+											p 15,03
+										td
+											p  
+										td
+											p 15,03
+										td
+											p 37,20
+										td
+											p  
+										td
+											p 37,20
+										td
+											p 50,16
+										td
+											p 102,0
+										td
+											p 37,20
+									tr
+										td
+											p Workers
+										td
+											p 52,56
+										td
+											p 66,47
+										td
+											p 22,83
+										td
+											p 64,88
+										td
+											p 63,53
+										td
+											p 84,47
+										td
+											p 62,63
+										td
+											p 61,61
+										td
+											p 76,03
+									tr
+										td
+											p Total
+										td
+											p 56,50
+										td
+											p 60,51
+										td
+											p 46,23
+										td
+											p 64,24
+										td
+											p 62,65
+										td
+											p 76,67
+										td
+											p 60,70
+										td
+											p 60,23
+										td
+											p 63,68
+
+					.dmpage-quote
+						|  In 2022, more than 33,000 employees of the Company were trained. 
+
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title Employee training costs, RUB mln.
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1.dmptable-colgroup-1--aw
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								thead
+									tr 
+										th 2020
+										th 2021
+										th 2022
+								tbody
+									tr 
+										td 150
+										td 269
+										td 289
+
+
+
+

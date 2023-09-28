@@ -1,0 +1,59 @@
+extends ../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div ESG ratings
+
+			h1.dmpage-h1 ESG ratings
+
+		.dmpage
+			include ../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie.html") К началу раздела
+						
+			.dmpage-main
+				.dmpage-detail 
+
+					.dmpage-text
+						h2 Contest certificates
+					.dmpage-small-w-section.dmpage-small-w-section--ext-docs
+						.dmpage-extendable-docs
+							.dmpage-extendable-doc.js-dmpage-extendable-doc
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--top Minimize
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--bottom Minimize
+								.dmpage-extendable-doc__pic
+									img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_14/14.1._diplom_rejtinga_otkrytosti_ekologicheskoj_informacii.jpg", alt="", loading="lazy")
+							.dmpage-extendable-doc.js-dmpage-extendable-doc
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--top Minimize
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--bottom Minimize
+								.dmpage-extendable-doc__pic
+									img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_14/14.2._diplom_konkursa_nadezhnyj_partner-_ekologija.jpg", alt="", loading="lazy")
+							.dmpage-extendable-doc.js-dmpage-extendable-doc
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--top Minimize
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--bottom Minimize
+								.dmpage-extendable-doc__pic
+									img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_14/14.3._ekolider._ohrana_atmosfernogo_vozduha.jpg", alt="", loading="lazy")
+							.dmpage-extendable-doc.js-dmpage-extendable-doc
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--top Minimize
+								.dmpage-extendable-doc__wrap.dmpage-extendable-doc__wrap--bottom Minimize
+								.dmpage-extendable-doc__pic
+									img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_14/14.4._ekolider._ohrana_vodnyh_resursov.jpg", alt="", loading="lazy")

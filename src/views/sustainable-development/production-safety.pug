@@ -1,0 +1,206 @@
+extends ../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Production safety
+
+			h1.dmpage-h1 Production safety
+
+		.dmpage
+			include ../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-4.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie.html")  To the beginning of the section
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Select a subsection
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/sustainable-development.html") To the beginning of the section
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/management-system.html.html") Management system
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/occupational-health-and-safety.html") Occupational health and safety
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/workplace-safety.html") Workplace safety
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/man-made-incidents.html") Man made incidents
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/industrial-injuries.html") Industrial injuries
+						a.dmpage-menu-item(href="/sustainable-development/production-safety/emergency-prevention-and-elimination-system.html") Emergency prevention and elimination system
+
+
+
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-quote
+						a.dmpage-quote__link(target="_blank" href="https://www.tatneft.ru/sustainable_development/industrial_safety")
+						|  Policy Statement of PJSC TATNEFT named after V.D. Shashin in the field of industrial safety 
+
+
+					.dmpage-text
+						//img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/zayavlenie-tn-v-oblasti-pb-rus.jpg", alt="")
+						p Tatneft is traditionally committed to the positions of responsible business conduct, therefore, it always pays significant attention to industrial safety, labor protection and the environment. 
+						p The Company implements an effective policy of industrial and environmental safety based on the principle of the priority of human life and preventive measures to prevent accidents. The approach to safety is implemented in all production processes, in the work of our own staff and contractors with the priority of health protection. The fulfillment of safety requirements is the basis of the developed “TATNEFT Group Development Strategy in the Field of Health, Safety and Environment until 2030”, which was formed taking into account the priority goals of sustainable development, the requirements of the Industrial and Labor Safety Management System. The strategy contains a systematic description of long-term development guidelines and covers all business areas.
+						p Key priorities
+						ul 
+							li Recognition of human rights to safe working conditions, a favorable environment and favorable living conditions 
+							li Ensuring industrial and environmental safety of production processes as an integral part of national security 
+							li Risk-based approach in ensuring occupational safety, industrial and environment 
+					.dmpage-quote
+						p 
+							b 10,26 RUB billion allocated for the implementation of industrial, fire and occupational safety protection measures
+					.dmpage-text
+						p Tatneft sets a strategic goal to achieve trouble-free production activities, safe working conditions for the Company’s employees, as well as the preservation of a favorable environment for present and future generations.
+
+					.dmpage-table-section
+						h3.dmpage-table-title.dmpage-table-title--small-w Industrial and occupational safety objectives 
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other
+								thead
+									tr
+										th
+											p Indicator
+										th
+											p 2020 
+											p objective
+										th
+											p 2020
+											p actual
+										th
+											p 2021 
+											p objective
+										th
+											p 2021
+											p actual
+										th
+											p 2022
+											p objective
+										th
+											p 2022
+											p actual
+										th
+											p 2023
+											p objective
+								tbody
+									tr
+										td
+											p Occupational injury frequency rate (RFR)
+										td
+											p 0,40
+										td
+											p 0,34
+										td
+											p 0,36
+										td
+											p 0,32
+										td
+											p 0,43
+										td
+											p 0,39
+										td
+											p 0,38
+									tr
+										td
+											p Road traffic injury frequency rate (RRTI)
+										td
+											p 0,32
+										td
+											p 0,06
+										td
+											p 0,30
+										td
+											p 0,06
+										td
+											p 0,28
+										td
+											p 0,00
+										td
+											p 0,26
+									tr
+										td
+											p Fire frequency rate (RF)
+										td
+											p 0,24
+										td
+											p 0,06
+										td
+											p 0,23
+										td
+											p 0,03
+										td
+											p 0,21
+										td
+											p 0,06
+										td
+											p 0,20
+									tr
+										td
+											p Accident frequency rate (RA)
+										td
+											p 0,47
+										td
+											p 0,13
+										td
+											p 0,42
+										td
+											p 0,02
+										td
+											p 0,38
+										td
+											p 0,04
+										td
+											p 0,35
+									tr
+										td
+											p Occupational injury severity rate (RS)
+										td
+											p 193
+										td
+											p 85,12
+										td
+											p 170
+										td
+											p 91,60
+										td
+											p 155
+										td
+											p 92,7
+										td
+											br
+											p 147
+
+					.dmpage-text
+						p In 2022, in order to implement strategic development goals in the field of industrial and occupational safety, the “Program (Comprehensive Action Plan) of the TATNEFT Group in the Field of Industrial and Occupational Safety to Prevent Injuries, Reduce Risk, Accidents and Unplanned Losses for 2022-2024” was updated. RUB 10.26 billion were allocated for the implementation of measures in the field of industrial and occupational safety to prevent injuries, reduce risk, accidents and unplanned losses.
+						
+
+					.dmpage-chart-outer.dmpage-small-w-section
+						h3.dmpage-chart-title Expenses for fire industrial and occupational safety, RUB mln.
+
+						.dmpage-chart-bar-wrap
+							#chart-bar-en-200-3.dmpage-chart-bar.js-dmpage-chart-bar
+								canvas

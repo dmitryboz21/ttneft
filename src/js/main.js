@@ -10,5 +10,5 @@ document.querySelector('.content>.container h1').classList.add('dmpage-h1');
 /*/ my scripts */
 //= partials/charts_data.js
 //= partials/charts_data-2.js
-
+//= partials/charts_data-en.js
 //= partials/main.js

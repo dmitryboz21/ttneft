@@ -1,0 +1,189 @@
+extends ../../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Contribution to environmental protection  
+
+			h1.dmpage-h1 Contribution to environmental protection  
+
+		.dmpage
+			include ../../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/ekologiya/ekologicheskij-menedzhment.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/ekologiya/ekologicheskij-menedzhment.html") К началу раздела
+						a.dmpage-menu-item(href="sistema-upravleniya-3.html") Система управления
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vklad-v-zashitu-okruzhayushej-sredy.html") Вклад в защиту окружающей среды
+						a.dmpage-menu-item(href="sistema-preduprezhdeniya-i-likvidacii-chrezvychajnyh-situacij-eco.html") Система предупреждения и ликвидации чрезвычайных ситуаций
+						a.dmpage-menu-item(href="svedeniya-o-spornyh-ekologicheskih-situaciyah.html") Сведения о спорных экологических ситуациях
+						a.dmpage-menu-item(href="pokazateli-vozdejstviya-na-okruzhayushuyu-sredu.html") Показатели воздействия на окружающую среду
+						a.dmpage-menu-item(href="informirovanie.html") Информирование
+						
+
+						
+
+
+			.dmpage-main
+				.dmpage-detail 
+					.dmpage-text
+						p In 2022, expenditure on environmental protection amounted to RUB 10.8 billion, or 8.5% less than in 2021. The decrease in expenses is mainly due to a change in the organizational structure of the TATNEFT Group and a decrease in investments as a result of the completion of the construction and commissioning of the plant-wide flare system and a crude gas compressor unit. 
+						p The environmental protection costs were calculated on the basis of the reports on the Federal Statistical Observation Forms No. 4-OC "Information on current environmental protection costs" and No. 18-KS "Information on investments in fixed assets aimed at environmental protection and rational use of natural resources".
+
+						.dmpage-table-section.dmpage-table-section--small
+							.dmpage-table-overflow
+								table.dmpage-table
+									colgroup.dmptable-colgroup-1
+										col.dmptable-col-1.dmptable-col-1--aw
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other(span=2)
+									thead
+										tr
+											th
+												p Expenditure Item, RUB billion 
+											th
+												p 2021
+											th
+												p 2022
+									tbody
+										
+										tr
+											td
+												p EP costs (Form No. 4-OC)
+											td
+												p 10,1
+											td
+												p 9,9
+										tr
+											td
+												p Investments in fixed assets aimed at EP (Form No. 18-KS) 
+											td
+												p 1,7
+											td
+												p 0,9
+										tr
+											td
+												p Total
+											td
+												p 11,8
+											td
+												p 10,8
+										tr
+											td
+												p Payments for negative impact on the EP
+											td
+												p 0,028
+											td
+												p 0,024
+										tr
+											td
+												p Fines and payment of damages
+												p damages
+											td
+												p 0,061
+											td
+												p 0,04 
+
+
+						.dmpage-text
+							h3 Contribution to environmental protection, RUB billion
+
+							img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image81.jpg", alt="")
+							p The large-scale environmental protection activities of the TATNEFT Group’s enterprises are financed on a priority basis from their own resources.
+							img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image87.jpg", alt="")
+							img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image78.jpg", alt="")
+
+							p The financing volumes for the environmental protection measures under the European Classification of Environmental Protection Activities and expenditures, СЕРА 2000, are grouped into 9 areas.
+
+
+						.dmpage-table-section.dmpage-table-section--small
+							h3.dmpage-table-title SPECIFIC ENVIRONMENTAL PROTECTION COSTS BY BUSINESS AREAS
+
+							.dmpage-table-overflow
+								table.dmpage-table
+									colgroup.dmptable-colgroup-1
+										col.dmptable-col-1.dmptable-col-1--aw
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other() 
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other() 
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other() 
+									thead
+										tr
+											th  
+											th
+												p 2020
+											th
+												p 2021
+											th
+												p 2022
+									tbody
+										tr
+											td
+												p Exploration and production
+												p RUB/tonnes of oil produced
+											td
+												p 158
+											td
+												p 147
+											td
+												p 155
+										tr
+											td
+												p Oil and gas processing 
+												p RUB/tonnes of oil equivalent of crude processed
+
+												
+											td
+												p 334
+											td
+												p 289
+											td
+												p 208
+										tr
+											td
+												p Petrochemicals,
+												p RUB/tonnes of marketable products
+											td
+												p 429
+											td
+												p 736
+											td
+												p 384
+										tr
+											td
+												p Power generation 
+												p RUB/kWh of energy generated
+											td
+												p 6,6
+											td
+												p 18
+											td
+												p 16 
+
+
+
+						.dmpage-text
+							h2 Environmental program 
+							p The goals set in the environmental safety and the reduction of environmental impact, including those related to the climate and greenhouse gas emissions, are pursued through consistent environmental programs. 
+							p Since 1990, four environmental programs have been successfully implemented. The applied integrated approach to solving environmental issues has made it possible to improve the state of the environment and reduce the man-made impact of oil production. 
+							p Since 2021, the Company's fifth environmental program, developed for the period until 2025, has been in place with the aim of maintaining the environment in the region of the Company's operations at a regulatory permissible level corresponding to the potential self-recovery capabilities of natural ecosystems.
+							p 
+								b The environmental program consolidates the efforts of all TATNEFT Group enterprises to preserve the quality of the environment. The program takes into account not only the legislative requirements for environmental protection, but also the additional commitments assumed. The program is based on a risk-oriented approach and aims to reduce the man-made impact on the environment.

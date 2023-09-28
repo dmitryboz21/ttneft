@@ -1,0 +1,82 @@
+extends ../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Interaction with local people living a traditional lifestyle
+
+			h1.dmpage-h1 Interaction with local people living a traditional lifestyle
+
+
+		.dmpage
+			include ../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-5.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/sodejstvie-socialnomu-razvitiyu.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/sodejstvie-socialnomu-razvitiyu.html") К началу раздела
+						a.dmpage-menu-item(href="podhod-k-upravleniyu.html") Подход к управлению
+						a.dmpage-menu-item(href="blagotvoritelnyj-fond.html") Благотворительный фонд
+						a.dmpage-menu-item(href="razvitie-socialnoj-infrastruktury.html") Развитие социальной инфраструктуры
+						a.dmpage-menu-item(href="investicii-v-novye-pokoleniya.html") Инвестиции в новые поколения
+						a.dmpage-menu-item(href="sohranenie-kulturnogo-naslediya.html") Сохранение культурного наследия
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.html") Взаимодействие с коренным местным населением, ведущим традиционный образ жизни
+						a.dmpage-menu-item(href="zdorovyj-obraz-zhizni.html") Здоровый образ жизни
+						a.dmpage-menu-item(href="podderzhka-iniciativ-razvitiya.html") Поддержка инициатив развития
+						a.dmpage-menu-item(href="chlenstvo-v-associaciyah.html") Членство в ассоциациях
+						
+			
+
+			
+			.dmpage-main
+				.dmpage-detail 
+					//	include ../../page-parts/b5/sodejstvie-socialnomu-razvitiyu.pug
+						include ../../page-parts/b5/podhod-k-upravleniyu.pug
+						include ../../page-parts/b5/blagotvoritelnyj-fond.pug
+						include ../../page-parts/b5/razvitie-socialnoj-infrastruktury.pug
+						include ../../page-parts/b5/investicii-v-novye-pokoleniya.pug
+						include ../../page-parts/b5/sohranenie-kulturnogo-naslediya.pug
+					//include ../../page-parts/b5/vzaimodejstvie-s-korennym-mestnym-naseleniem-vedushim-tradicionnyj-obraz-zhizni.pug
+					//	include ../../page-parts/b5/zdorovyj-obraz-zhizni.pug
+						include ../../page-parts/b5/podderzhka-iniciativ-razvitiya.pug
+						include ../../page-parts/b5/chlenstvo-v-associaciyah.pug
+					.dmpage-text
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/mestnoe_naselenie.jpg", alt="")
+						p The company's policy on relations with indigenous people living a traditional lifestyle is set out in its internal documents (including the Code of Corporate Culture and the Collective Bargaining Agreement), including the key principle in this area. 
+						p The Company takes part in the socio-economic development of the Nenets Autonomous District as part of the Cooperation Agreement with the regional administration, charitable activities, traditional annual sports (“Buran-Day”) and environmental events as part of federal projects (“Clean Arctic”). 
+						p Implementing business projects in countries with different political systems and cultural traditions, PJSC TATNEFT proceeds from the fact that everyone should have all the proclaimed rights and freedoms without any distinction, regardless of race, skin colour, gender, age, language, religion, political or other opinions, national or social origin, disability, property, estate or other status, including the right to work, the right to a favourable environment, the rights of indigenous peoples and special groups of the population, and others.
+						p PJSC TATNEFT adheres to and shares the principles embodied in fundamental international declarations and conventions:
+						ul 
+							li United Nations Universal Declaration of Human Rights (hereinafter referred to as UN);
+							li Guiding Principles on Business and Human Rights endorsed by the resolution of the UN Human Rights Council;
+							li OECD Guidelines for Multinational Enterprises;
+							li ILO principles on multinational corporations and social policy.
+						p The engagement with local communities is included in the Company's annual Sustainability Report and Annual Reports.
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/politika_po_vzaimodejstviju_s_mestnym_naseleniem.jpg", alt="")
+					.dmpage-accordions-wrap
+						.dmpage-accordions
+							.dmpage-accordion
+								.dmpage-accordion-head
+									.dmpage-accordion-head__text Appendix 
+								.dmpage-accordion-body
+									.dmpage-accordion-body__text
+										ul
+											li
+												a( download href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_10/prilozhenie_10.1._politika_gruppy_tatneft_po_vzaimodejstviju_s_mestnym_naseleniem.docx") 10.1. The TATNEFT Group’s policy on the interaction with local indigenous people living a traditional lifestyle
+											li
+												a( download href="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/prilozhenie_10/prilozhenie_10.2._knopka_podrobnee.docx") 10.2. “DETAILS” BUTTON

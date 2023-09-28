@@ -1,0 +1,253 @@
+extends ../../../layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			.crumbs
+				.crumbs__item
+					a(href='/')
+						img(src='https://www.tatneft.ru/images/home.svg' alt='')
+				.crumbs__item
+					.arrow
+						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
+					div Air emissions
+
+			h1.dmpage-h1 Air emissions
+
+		.dmpage
+			include ../../../partials/dmpage_start
+
+			.dmpage-top
+				.dmpage-top__pic
+					img(src="https://www.tatneft.ru/uploads/publications/dmpages/img/top/block-2.jpg", alt="")
+
+			.dmpage-menu
+				a.dmpage-menu__back-to-start.dmpage-menu__back-to-start--mob(href="/ustojchivoe-razvitie/ekologiya/ohrana-atmosfernogo-vozduha.html")  К началу раздела
+				.dmpage-menu-mob-header 
+					.dmpage-menu-mob-header__text Выбрать подраздел
+				.dmpage-menu__inner
+					.dmpage-menu-items
+						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/ekologiya/ohrana-atmosfernogo-vozduha.html") К началу раздела
+						a.dmpage-menu-item.dmpage-menu-item--active(href="vybrosy-v-atmosfernyj-vozduh.html") Выбросы в атмосферный воздух
+
+
+
+			.dmpage-main
+				.dmpage-detail
+					.dmpage-text
+						p In 2022, gross emissions of pollutants into the atmospheric air by the TATNEFT Group amounted to 100,200 tonnes, which is 3.2% less than in 2021. The reduction was achieved through implementation of the following measures:
+						ul
+							li upgrading production using the best technologies, equipment, materials, digital management solutions
+							li improvement of the energy efficiency of production processes
+							li maintaining the technical condition of oilfield equipment at the appropriate level
+							li introduction of technology for capturing light fractions of hydrocarbons released from tanks
+							li reduction of volumes of associated petroleum gas burned in flare units
+							li purification of associated petroleum gas at desulfurization plants
+							li replacement of flare units with sootless combustion units
+							li repair and replacement of tanks, application of anticorrosive coating on them and introduction of electrochemical protection means
+							li overhaul and replacement of commercial oil and gas pipelines
+							li improvement of the environmental performance of vehicles
+							li use of gas returnable fuel dispensers at gas stations.
+
+						.dmpage-table-section.dmpage-table-section--small
+							.dmpage-table-overflow
+								table.dmpage-table
+									colgroup.dmptable-colgroup-1
+										col.dmptable-col-1.dmptable-col-1--aw
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other
+									colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+										col.dmptable-col-other
+									thead
+										tr
+											th  
+											th
+												p 2020
+											th
+												p 2021
+											th
+												p 2022
+									
+									tbody
+										tr.dmpage-table__tr--with-border
+											td
+												p
+													b Gross emissions of pollutants into the atmospheric air*, thousand tonnes, including:
+
+											td
+												p
+													b 108,7 
+											td
+												p
+													b 103,5 
+											td
+												p
+													b 100,2
+										tr
+											td
+												p solids
+											td
+												p 2,1 
+											td
+												p 2,0 
+											td
+												p 1,3
+										tr
+											td
+												p sulfur dioxide
+											td
+												p 14,1 
+											td
+												p 10,3 
+											td
+												p 9,9
+										tr
+											td
+												p carbon monoxide
+											td
+												p 21,9
+											td
+												p 21,4
+											td
+												p 19,5
+										tr
+											td
+												p nitrogen oxides (in terms of NO2) 
+											td
+												p 9,0 
+											td
+												p 8,5
+											td
+												p 9,1
+										tr
+											td
+												p hydrocarbons (without volatile organic compounds)
+
+											td
+												p 13,4
+											td
+												p 13,1 
+											td
+												p 12,9
+										tr
+											td
+												p volatile organic compounds (VOCs)
+											td
+												p 47,1 
+											td
+												p 47,1 
+											td
+												p 46,5
+										tr
+											td
+												p other
+											td
+												p 1,1 
+											td
+												p 1,1 
+											td
+												p 1,0
+
+
+					.dmpage-text.dmpage-text--small
+						p * Indicators on emissions of pollutants into the atmospheric air are formed on the basis of indicators reflected in the forms of state statistical reporting (2-TP air).
+
+					.dmpage-text
+
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image79.jpg", alt="")
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image17.jpg", alt="")
+
+
+
+					.dmpage-table-section.dmpage-table-section--small
+						h3.dmpage-table-title SPECIFIC EMISSIONS OF POLLUTANTS INTO AMBIENT AIR
+
+
+
+						.dmpage-table-overflow
+							table.dmpage-table
+								colgroup.dmptable-colgroup-1
+									col.dmptable-col-1.dmptable-col-1--aw
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+								colgroup.dmptable-colgroup-other.dmptable-colgroup-other--aw
+									col.dmptable-col-other() 
+									
+								thead 
+									tr
+										th  
+										th  2020
+										th  2021
+										th  2022
+								tbody
+									tr
+										td
+											p Exploration and production 
+											p kg/ton of extracted oil
+										td
+											p 2,84
+										td
+											p 2,56
+										td
+											p 2,44
+									tr
+										td
+											p Oil and gas processing 
+											p kg/ton of oil equivalent of processed raw materials
+										td
+											p 0,911
+										td
+											p 0,86
+										td
+											p 0,71
+									tr
+										td
+											p Petrochemicals
+											p kg/kg of marketable products
+										td
+											p 0,007
+										td
+											p 0,0048
+										td
+											p 0,0054
+									tr
+										td
+											p Power generation
+											p kg/kW*h of generated energy
+										td
+											p 0,0009
+										td
+											p 0,0003
+										td
+											p 0,0004 
+
+
+					.dmpage-text
+
+						h2 EMISSIONS OF OZONE-DEPLETING SUBSTANCES
+						p The TATNEFT Group does not use ozone-depleting substances on an industrial scale, nor does it produce them.
+
+						h2 EFFICIENT USE OF ASSOCIATED PETROLEUM GAS
+						p The Company implements a program to improve the rational use of associated petroleum gas aimed at stimulating the processing of APG into products with high added value and reducing the impact on the environment and climate.
+						p
+							b In 2020-2022, the volume of APG flaring was reduced by 50%. 
+						p 
+							b The APG utilization level was 98.09% in 2022.
+
+
+						h3 APG FLARED VOLUMES ACROSS TATNEFT GROUP, MLN CUB. M
+
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image9.jpg", alt="")
+
+						p Calculations of APG utilization levels are carried out in accordance with Decree of the Government of the Russian Federation No. 1148 "Regulation on the specifics of calculating fees for negative environmental impact from emissions into the atmospheric air of pollutants formed during flaring and (or) dispersion of associated petroleum gas" dated 08.11.2019. 
+						
+						p In order to increase the level of associated petroleum gas utilization, the Company took measures to connect separation points to the gas gathering system, organize multiphase transport of well products and use the gas for own process needs.
+
+						h3 UTILIZATION OF APG, MLN M3
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/image13.png", alt="")
+						img(src="https://www.tatneft.ru/uploads/publications/dmpages/prilozheniya/processed_new_pictures/from_en/image12.jpg", alt="")

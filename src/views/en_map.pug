@@ -1,0 +1,214 @@
+extends layouts/default
+
+
+block main
+	.container.container--dmpage
+		div
+			h1.dmpage-h1 EN MAP
+		.dmpage
+
+			.dmpage-main
+				.dmpage-detail 
+
+					.dmpage-text(style="width:100%;")
+						//each val in ['https://dmitryboz21.github.io/ttneft/build/sustainable-development.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-protection/air-emissions.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/biodiversity-conservation/sites-of-the-natural-reserve-fund-of-the-region-of-production-activity-of-pjsc-tatneft.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/cooperation-on-environment-agenda.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/decarbonization-strategy.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/greenhouse-gas-emissions.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/resource-efficiency.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/risk-management.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/contribution-to-environmental-protection.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/emergency-prevention-and-response-system.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/environmental-performance.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/information-on-disputable-ecological-situations.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/management-system-3.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/public-environmental-awareness.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management/achievement-of-sdg-12-targets.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management/performance-indicators.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/water-intake-and-water-consumption/water-consumption-performance-indicators.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/achievement-of-sdg-6-targets.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-monitoring.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-protection.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/biodiversity-conservation.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/hydromonitoring.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/water-intake-and-water-consumption.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/aktyuba-energy-efficient-settlement.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/ccus-projects.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/green-office-project.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/looking-for-a-carbon-footprint.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/not-only-clean-air.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/olympiad-for-young-geologists.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/school-biolabs.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/tatneft-sdg-envoys.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/the-green-gold-of-tatneft.html','Dmitry, [02.10.2023 13:53]','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/emergency-prevention-and-elimination-system.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/industrial-injuries.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/man-made-incidents.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/management-system.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/occupational-health-and-safety.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/workplace-safety.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/charitable-foundation.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/healthy-lifestyle.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/interaction-with-local-people-living-a-traditional-lifestyle.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/investment-in-future-generations.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/management-approach.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/membership-in-associations.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/preservation-of-cultural-heritage.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/social-infrastructure-development.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/support-for-development-initiatives.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/collective-representation.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/education-and-development.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/employee-pool.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/management-system.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/remuneration.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/social-security.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/structure.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/youth-development.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-ratings.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/human-rights.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/social-development-promotion.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/sustainable-development-ratings-and-rankings.html','https://dmitryboz21.github.io/ttneft/build/sustainable-development/un-sustainable-development-goals-navigator.html']
+							p 
+								a(href=val target="_blank")=val
+
+
+						style  .dmpage-quote ol, .dmpage-quote ul, .dmpage-table ol, .dmpage-table ul, .dmpage-text ol, .dmpage-text ul {padding-left:25px;}
+
+						ul
+							li 
+								a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development.html" taget="_blank") Устойчивое развитие  
+								ul 
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/human-rights.html" taget="_blank")  Права человека 
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/un-sustainable-development-goals-navigator.html" taget="_blank")  Навигатор ЦУР ООН 
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology.html" taget="_blank") Раздел 2 уровня: Экология
+										ul
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management.html" taget="_blank")  Экологический менеджмент 
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/management-system-3.html" taget="_blank")  Система управления
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/contribution-to-environmental-protection.html" taget="_blank")  Вклад в защиту окружающей среды
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/emergency-prevention-and-response-system.html" taget="_blank")  Система предупреждения и ликвидации чрезвычайных ситуаций
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/information-on-disputable-ecological-situations.html" taget="_blank")  Сведения о спорных экологических ситуациях
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/environmental-performance.html" taget="_blank")  Показатели воздействия на окружающую среду
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/environmental-management/public-environmental-awareness.html" taget="_blank")  Информирование
+
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action.html" taget="_blank")  Борьба с изменением климата
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/decarbonization-strategy.html" taget="_blank")  Стратегия декарбонизации
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/risk-management.html" taget="_blank")  Риск-менеджмент
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/greenhouse-gas-emissions.html" taget="_blank")  Выбросы парниковых газов
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/resource-efficiency.html" taget="_blank")  Ресурсоэффективность
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/climate-action/cooperation-on-environment-agenda.html" taget="_blank")  
+
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-protection.html" taget="_blank")  Охрана атмосферного воздуха
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-protection/air-emissions.html" taget="_blank")  Выбросы в атмосферный воздух
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/ambient-air-monitoring.html" taget="_blank")  Мониторинг атмосферного воздуха
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/water-intake-and-water-consumption.html" taget="_blank")  Водозабор и водопотребление
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/water-intake-and-water-consumption/water-consumption-performance-indicators.html" taget="_blank")  Показатели водопользования
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/achievement-of-sdg-6-targets.html" taget="_blank") Достижение целей ЦУР
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/hydromonitoring.html" taget="_blank")  Гидромониторинг
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management.html" taget="_blank")  Обращение с отходами
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management/performance-indicators.html" taget="_blank")  Показатели
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/waste-management/achievement-of-sdg-12-targets.html" taget="_blank")  Достижение целей ЦУР 12
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/biodiversity-conservation.html" taget="_blank")  Сохранение биоразнообразия
+												ul
+													li
+														a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/ecology/biodiversity-conservation/sites-of-the-natural-reserve-fund-of-the-region-of-production-activity-of-pjsc-tatneft.html" taget="_blank")  Объекты природно-заповедного фонда региона производственной деятельности ПАО «Татнефть»
+													//li
+														a(href="REPLACE_ME" taget="_blank")  Не только чистый воздух
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff.html" taget="_blank") Раздел 2 уровня: Персонал 
+										ul
+										
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/management-system.html" taget="_blank")  Система управления 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/education-and-development.html" taget="_blank")  Обучение и развитие 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/social-security.html" taget="_blank")  Социальное обеспечение 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/structure.html" taget="_blank")  Структура 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/youth-development.html" taget="_blank")  Развитие молодежи 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/employee-pool.html" taget="_blank")  Кадровый резерв 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/remuneration.html" taget="_blank")  Оплата труда 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/staff/collective-representation.html" taget="_blank")  Коллективное представительство 
+
+												
+
+
+
+
+
+
+
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety.html" taget="_blank") Раздел 2 уровня: Безопасность производства 
+										ul
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/management-system.html" taget="_blank")  Система управления 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/man-made-incidents.html" taget="_blank")  Техногенные происшествия 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/occupational-health-and-safety.html" taget="_blank")  Охрана труда и безопасность производственных процессов 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/industrial-injuries.html" taget="_blank")  Производственный травматизм 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/workplace-safety.html" taget="_blank")  Безопасность рабочих мест 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/production-safety/emergency-prevention-and-elimination-system.html" taget="_blank")  Система предупреждения и ликвидации чрезвычайных ситуаций 
+
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development.html" taget="_blank") Раздел 2 уровня: Содействие социальному развитию 
+										ul
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/management-approach.html" taget="_blank")  Подход к управлению 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/investment-in-future-generations.html" taget="_blank")  Инвестиции в новые поколения 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/healthy-lifestyle.html" taget="_blank")  Здоровый образ жизни 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/charitable-foundation.html" taget="_blank")  Благотворительный фонд 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/preservation-of-cultural-heritage.html" taget="_blank")  Сохранение культурного наследия 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/support-for-development-initiatives.html" taget="_blank")  Поддержка инициатив развития 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/social-infrastructure-development.html" taget="_blank")  Развитие социальной инфраструктуры 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/interaction-with-local-people-living-a-traditional-lifestyle.html" taget="_blank")  Взаимодействие с коренным местным населением, ведущим традиционный образ жизни 
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/promotion-of-social-development/membership-in-associations.html" taget="_blank")  Членство в ассоциациях 
+
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects.html" taget="_blank") ESG-проекты
+										ul
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/ccus-projects.html" taget="_blank")   Проекты CCUS
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/green-office-project.html" taget="_blank")   Проект «Зеленый офис»
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/the-green-gold-of-tatneft.html" taget="_blank")   Зеленое золото Татнефти
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/not-only-clean-air.html" taget="_blank")   Не только чистый воздух
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/tatneft-sdg-envoys.html" taget="_blank")   Посланники ЦУР Татнефти
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/school-biolabs.html" taget="_blank")   Школьные биолаборатории
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/looking-for-a-carbon-footprint.html" taget="_blank")   В поисках углеродного следа
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/olympiad-for-young-geologists.html" taget="_blank")   Олимпиада юных геологов
+											li
+												a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-projects/aktyuba-energy-efficient-settlement.html" taget="_blank")   Энергоэффективное поселение Актюба
+
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/esg-ratings.html" taget="_blank") ESG-рейтинги
+
+
+									li
+										a(href="https://dmitryboz21.github.io/ttneft/build/sustainable-development/sustainable-development-ratings-and-rankings.html" taget="_blank") Раздел 2 уровня: Рейтинги и рэнкинги устойчивого развития
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							
+block scripts

@@ -11,9 +11,9 @@ block main
 				.crumbs__item
 					.arrow
 						img(src='https://www.tatneft.ru/images/long-arrow.svg' alt='')
-					div Охрана труда и безопасность производственных процессов
+					div Охрана труда
 
-			h1.dmpage-h1 Охрана труда и безопасность производственных процессов
+			h1.dmpage-h1 Охрана труда
 
 		.dmpage
 			include ../../partials/dmpage_start
@@ -30,8 +30,8 @@ block main
 					.dmpage-menu-items
 						a.dmpage-menu__back-to-start(href="/ustojchivoe-razvitie/bezopasnost-proizvodstva.html") К началу раздела
 						a.dmpage-menu-item(href="sistema-upravleniya-2.html") Система управления
-						a.dmpage-menu-item.dmpage-menu-item--active(href="ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.html") Охрана труда и безопасность производственных процессов
-						a.dmpage-menu-item(href="bezopasnost-rabochih-mest.html") Безопасность рабочих мест
+						a.dmpage-menu-item.dmpage-menu-item--active(href="ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.html") Охрана труда
+						//a.dmpage-menu-item(href="bezopasnost-rabochih-mest.html") Безопасность рабочих мест
 						a.dmpage-menu-item(href="tehnogennye-proisshestviya.html") Техногенные происшествия
 						a.dmpage-menu-item(href="proizvodstvennyj-travmatizm.html") Производственный травматизм
 						a.dmpage-menu-item(href="sistema-preduprezhdeniya-i-likvidacii-chrezvychajnyh-situacij.html") Система предупреждения и ликвидации чрезвычайных ситуаций
@@ -44,6 +44,11 @@ block main
 					//	include ../../page-parts/b4/bezopasnost-proizvodstva.pug
 						include ../../page-parts/b4/sistema-upravleniya-2.pug
 					include ../../page-parts/b4/ohrana-truda-i-bezopasnost-proizvodstvennyh-processov.pug
+					
+					.dmpage-text
+						h3 Безопасность рабочих мест
+					
+					include ../../page-parts/b4/bezopasnost-rabochih-mest.pug
 				//	include ../../page-parts/b4/bezopasnost-rabochih-mest.pug
 					include ../../page-parts/b4/tehnogennye-proisshestviya.pug
 					include ../../page-parts/b4/proizvodstvennyj-travmatizm.pug
